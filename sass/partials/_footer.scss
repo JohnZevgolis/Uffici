@@ -1,0 +1,92 @@
+.footer-height {
+	background-color: $black;
+
+	footer {
+
+	color: $white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+
+	@media only screen and (max-width: 992px) {
+		position: static;
+	}
+
+	h4 {
+		text-transform: uppercase;
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 14px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	a {
+		color: $white;
+		font-family: 'Roboto', sans-serif;
+		@include transition(all .3s);
+		&:hover {
+			color: $orange;
+		}
+	}
+
+	.social a i {
+		font-size: 20px;
+	}
+
+	.navbar-nav .nav-link {
+		color: $lightGrey;
+		font-size: 14px;
+		font-family: 'Roboto', sans-serif;
+		&:hover {
+			color: $orange;
+		}
+	}
+
+	span.phone {
+		color: $orange;
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	span.umobit {
+		line-height: 1;
+	}
+
+	.umobit-logo {
+
+		img {
+			position: absolute;
+			@include transition(all .8s);
+
+			&:last-child {
+				opacity: 0;
+			}
+		}
+
+		&:hover img:first-child {
+			opacity: 0;
+		}
+
+		&:hover img:last-child {
+			opacity: 1;
+		}
+		
+	}
+
+	.footer-bottom p,
+	.footer-bottom a,
+	.footer-bottom li {
+		font-size: 12px;
+	}
+
+	.footer-bottom li {
+		border-right: 1px solid $white;
+		&:last-child {
+			border-right: none;
+		}
+	}
+}
+}

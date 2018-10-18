@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang='el'>
+<head>
+	<title>Uffici</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Advent+Pro:100,200,300,400,500,600,700&amp;subset=greek,latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=greek,greek-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=greek,latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--Header-->
+
+<header class="fixed-top">
+    <div class="container-fluid">
+        <nav class="navbar mynavbar justify-space-between py-0">
+			<div class="d-flex align-items-center">
+	            <!-- Toggler/collapsibe Button -->
+	            <button class="navbar-toggler mr-0" type="button">
+	                <span class="icon-bar top-bar"></span>
+	                <span class="icon-bar middle-bar"></span>
+	                <span class="icon-bar bottom-bar"></span>
+	            </button>
+	            <a href="#" class="nav-link menu-item d-none d-md-block">Μενού</a>
+			</div>
+
+			<!-- Brand -->
+            <a class="navbar-brand mr-0" href="index.html">
+            	<div class="d-inline-block">
+	                <img src ="images/logo-cafe.png" alt="Uffici">
+	            </div>
+	            <div class="d-inline-block">
+                	<img src="images/logo-catering.png" alt="Uffici">
+                </div>
+            </a>
+
+            <!-- Navbar links -->
+            <div>
+            	<ul class="text-center nav">
+            		<li class="nav-item">
+            			<a href="#" class="nav-link d-none d-md-block">Η εταιρεία</a>
+            		</li>
+            		<li class="nav-item d-none d-md-block">
+            			<a href="#" class="nav-link" data-toggle="modal" data-target="#myModal">Αναζήτηση
+            				<img class="d-inline-block align-middle" src="images/search-icon.png" width="20">
+            			</a>
+            		</li>
+            		<li class="nav-item d-block d-md-none">
+            			<a href="#" class="nav-link" data-toggle="modal" data-target="#myModal">
+            				<img src="images/search-icon.png" width="20">
+            			</a>
+            		</li>
+				</ul>
+			</div>
+        </nav>
+    </div>
+</header>
+
+<!--Carousel-->
+
+<div class="z-index relative mycarousel">
+	<div id="demo" class="carousel slide d-flex align-items-bottom" data-ride="carousel">
+
+	  <!-- The slideshow -->
+	  <div class="carousel-inner">
+
+	    <div class="carousel-item active myitem" style="background-image: url('images/slide-1.jpg')">
+	    	<div class="overlay"></div>
+	    	<div class="d-flex justify-content-center align-items-center align-items-md-end height-100 relative">
+	    		<div class="text-center">
+	    			<div class="pb-4">
+		    			<span class="d-block d-md-inline-block align-middle mb-2 mb-md-0 mr-0 mr-md-3 title-span">Έχω όρεξη για</span>
+		    			<div class="relative dropdown-btn d-inline-block align-middle">
+			    			<a href="#" class="btn mybtn white-bg py-3 px-4">
+			    				<span>ΕΠΙΛΕΞΤΕ</span>
+			    				<img class="ml-2" src="images/btn-arrow.png">
+			    			</a>
+			    			<div class="dropdown-menu mydropdown text-center">
+			    				<div>
+								    <a class="dropdown-item" href="#">Link 1</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 2</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 3</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 4</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 5</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 6</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 8</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 9</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 10</a>
+								</div>
+							</div>
+						</div>
+		    		</div>
+		    		<div class="pt-0 pt-md-4">
+		    			<h1 class="mb-3">Lorem ipsum dolor sit</h1>
+		    			<p class="mx-auto mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+		    		</div>
+	    		</div>
+	    	</div>
+	    </div>
+
+	    <div class="carousel-item myitem" style="background-image: url('images/slide-2.jpg')">
+	    	<div class="overlay"></div>
+	    	<div class="d-flex justify-content-center align-items-center align-items-md-end height-100 relative">
+	    		<div class="text-center">
+	    			<div class="pb-4">
+		    			<span class="d-block d-md-inline-block align-middle mb-2 mb-md-0 mr-0 mr-md-3 title-span">Έχω όρεξη για</span>
+		    			<div class="relative dropdown-btn d-inline-block align-middle">
+			    			<a href="#" class="btn mybtn white-bg py-3 px-4">
+			    				<span>ΕΠΙΛΕΞΤΕ</span>
+			    				<img class="ml-2" src="images/btn-arrow.png">
+			    			</a>
+			    			<div class="dropdown-menu mydropdown text-center">
+			    				<div>
+								    <a class="dropdown-item" href="#">Link 1</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 2</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 3</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 4</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 5</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 6</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 8</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 9</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 10</a>
+								</div>
+							</div>
+						</div>
+		    		</div>
+		    		<div class="pt-0 pt-md-4">
+		    			<h1 class="mb-3">Lorem ipsum dolor sit</h1>
+		    			<p class="mx-auto mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+		    		</div>
+	    		</div>
+	    	</div>
+	    </div>
+
+	    <div class="carousel-item myitem" style="background-image: url('images/slide-3.jpg')">
+	    	<div class="overlay"></div>
+	    	<div class="d-flex justify-content-center align-items-center align-items-md-end height-100 relative">
+	    		<div class="text-center">
+	    			<div class="pb-4">
+		    			<span class="d-block d-md-inline-block align-middle mb-2 mb-md-0 mr-0 mr-md-3 title-span">Έχω όρεξη για</span>
+		    			<div class="relative dropdown-btn d-inline-block align-middle">
+			    			<a href="#" class="btn mybtn white-bg py-3 px-4">
+			    				<span>ΕΠΙΛΕΞΤΕ</span>
+			    				<img class="ml-2" src="images/btn-arrow.png">
+			    			</a>
+			    			<div class="dropdown-menu mydropdown text-center">
+			    				<div>
+								    <a class="dropdown-item" href="#">Link 1</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 2</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 3</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 4</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 5</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 6</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 8</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 9</a>
+								    <div class="dropdown-divider"></div>
+								    <a class="dropdown-item" href="#">Link 10</a>
+								</div>
+							</div>
+						</div>
+		    		</div>
+		    		<div class="pt-0 pt-md-4">
+		    			<h1 class="mb-3">Lorem ipsum dolor sit</h1>
+		    			<p class="mx-auto mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+		    		</div>
+	    		</div>
+	    	</div>
+	    </div>
+
+	  </div>
+
+	   <!-- Indicators -->
+	  <ul class="carousel-indicators indicators d-none d-md-flex mb-0">
+	    <li data-target="#demo" data-slide-to="0" class="active rounded-circle mx-3"></li>
+	    <li data-target="#demo" data-slide-to="1" class="rounded-circle mx-3"></li>
+	    <li data-target="#demo" data-slide-to="2" class="rounded-circle mx-3"></li>
+	  </ul>
+
+	  <!-- Left and right controls -->
+	  <div class="arrows d-md-flex justify-content-between d-none">
+		  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+		   	<img src="images/left-arrow.png">
+		  </a>
+		  <a class="carousel-control-next" href="#demo" data-slide="next">
+		    <img src="images/right-arrow.png">
+		  </a>
+	  </div>
+
+	  <div class="scroll-down text-center d-none d-md-block">
+	  	<span class="d-block mb-1">SCROLL</span>
+	  	<img src="images/down-arrow.png">
+	  </div>
+
+	</div>
+
+	<!--Agapimena-->
+
+	<section class="py-5 favorites">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h3 class="mb-0">Επιλεγμένες κατηγοριές αγαπημένες γεύσεις</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-section lg-section" style="background-image: url('images/snacks.jpg')">
+		<div class="d-flex justify-content-start">
+			<div class="col-md-6 col-lg-5 col-xl-4 px-0 layer">
+				<a href="#" class="d-block h-100 pt-5">
+					<div class="pl-5 ml-5 pt-5">
+						<h2 class="mb-4">Δείτε τα <br>Snacks</h2>
+						<span>Περισσότερα ></span>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-section lg-section" style="background-image: url('images/glyka.jpg')">
+		<div class="d-flex justify-content-end">
+			<div class="layer col-md-6 col-lg-5 col-xl-4 px-0">
+				<a href="#" class="d-block h-100 pt-5">
+					<div class="pl-5 ml-5 pt-5">
+						<h2 class="mb-4">Δείτε τα <br>Γλυκά</h2>
+						<span>Περισσότερα ></span>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="sm-section">
+		<div class="row mx-0 h-100">
+			<div class="col-md-6 px-0 bg-section" style="background-image: url('images/cafedes.jpg')">
+				<div class="row">
+					<div class="col px-0">
+						<a href="#" class="layer fromTop relative d-flex justify-content-center align-items-center h-100">
+							<div>
+								<h2>Καφέδες</h2>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 px-0 bg-section" style="background-image: url('images/geumata.jpg')">
+				<div class="row">
+					<div class="col px-0">
+						<a href="#" class="layer fromBottom relative d-flex justify-content-center align-items-center h-100">
+							<div>
+								<h2>Γεύματα</h2>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Catering-->
+
+	<section class="py-5 black-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h3 class="mb-0">Uffici Catering</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-section lg-section" style="background-image: url('images/catering.jpg')">
+		<div class="d-flex justify-content-start">
+			<div class="layer col-md-6 col-lg-5 col-xl-4 px-0">
+				<a href="#" class="d-block h-100 pt-5">
+					<div class="pl-5 ml-5 mt-3 pt-5">
+						<h2 class="mb-4">Δείτε τα <br>προϊόντα<br>catering</h2>
+						<span>Περισσότερα ></span>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!--Πιάτα Ημέρας-->
+
+	<section class="py-5 black-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h3 class="mb-0">Πιάτα ημέρας</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-section lg-section" style="background-image: url('images/piata-imeras.jpg')">
+		<div class="d-flex justify-content-end">
+			<div class="layer col-md-6 col-lg-5 col-xl-4 px-0">
+				<a href="#" class="d-block h-100 pt-5">
+					<div class="pl-5 ml-5 mt-3 pt-5">
+						<h2 class="mb-4">Δείτε τα <br>πιάτα ημέρας</h2>
+						<span>Περισσότερα ></span>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!--Map Section-->
+
+	<section class="py-5 black-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h3 class="mb-0">Βρείτε μας</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="map">
+		<div id="map"></div>
+	</section>
+</div>
+
+<!--Footer-->
+
+<div class="footer-height">
+	<footer class="pt-5 pb-2">
+		<div class="container pt-5">
+			<div class="row pb-5">
+				<div class="col-md-6 mb-5 mb-lg-0 col-lg-3 text-center text-md-left">
+					<h4 class="mb-0">Σχετικα με το Uffici</h4>
+					<nav>
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link pb-0" href="#">Uffici Cuisine</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link pb-0" href="#">Uffici Bar</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link pb-0" href="#">Ιδέες για δώρα</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link pb-0" href="#">Uffici Catering</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link pb-0" href="#">Χρήσιμες πληροφορίες</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-6 col-lg-3 mb-5 mb-lg-0 text-center text-md-left">
+					<h4>Ώρες λειτουργίας</h4>
+					<p class="mb-5">Δευτέρα - Παρασκευή <br> 08:00 - 18:00</p>
+					<h4 class="mb-2">Follow us</h4>
+					<ul class="nav social justify-content-center justify-content-md-start">
+						<li>
+							<a href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="ml-4">
+							<a href="#">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-lg-3 mb-5 mb-md-0 text-center text-md-left">
+					<h4 class="mb-0">Πιστοποιημένα Προϊόντα</h4>
+					<ul class="navbar-nav mt-3">
+						<li class="nav-item mb-2">
+							<img src="images/iso-9001.png">
+						</li>
+						<li class="nav-item mb-2">
+							<img src="images/iso-14001.png">
+						</li>
+						<li class="nav-item mb-2">
+							<img src="images/iso-22000.png">
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-lg-3 text-center text-md-left">
+					<h4>Επικοινωνία</h4>
+					<p>Λεωφόρος Κύμης 10 και Σενεκα <br>Κηφισιά, Αττική, Ελλάδα</p>
+	        		<img src="images/email.png" width="20"><a class="ml-2" href="mailto:contact@uffici.com">contact@uffici.com</a>
+	        		<p class="mt-3">
+	        			<img src="images/phone.png" class="d-inline-block align-middle">
+	        			<a href="tel:210 6200650" class="ml-1 d-inline-block align-middle">
+	        				<span class="phone">210 6200650</span>
+	        			</a>
+	        		</p>
+				</div>
+			</div>
+			<div class="row footer-bottom mt-5">
+				<div class="col-lg-10 mb-3 mb-lg-0">
+					<nav>
+						<ul class="nav align-items-bottom justify-content-center justify-content-md-start">
+							<li class="nav-item nav-link px-1 py-0">© UFFICI 2018. ALL RIGHTS RESERVED</li>
+							<li class="nav-item">
+								<a class="nav-link px-1 py-0" href="#">Όροι χρήσης</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link px-1 py-0" href="#">Πολιτική απορρήτου</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link px-1 py-0" href="#">Προσωπικά δεδομένα</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link px-1 py-0" href="#">Πολιτική Cookies</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-lg-2 text-center text-lg-right">
+					<p>
+						<span class="d-inline-block align-bottom umobit">made by </span>
+						<a href="https://www.umobit.com/" target="_blank" class="umobit-logo">
+							<img class="ml-2 d-inline-block align-bottom" src="images/umobit-gray.png">
+							<img class="ml-2 d-inline-block align-bottom" src="images/umobit.png">
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+
+<div class="main-menu py-2">
+	<div class="container">
+		<div class="row mb-0 mb-sm-3 mt-3 mb-md-5">
+			<div class="col">
+				<button class="close-btn">
+					<span class="icon-bar top-bar"></span>
+					<span class="icon-bar bottom-bar"></span>
+				</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col static pl-4 pr-0">
+				<nav>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link p-1 main-menu-item" href="index.html">
+								<span>Αρχική</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link p-1 main-menu-item" href="#">
+								<span>Μενού</span>
+							</a>
+							<div class="secondary-menu d-none d-md-flex align-items-center">
+								<div class="container">
+									<div class="row">
+										<div class="col pl-4 pr-0">
+											<nav>
+												<ul class="navbar-nav py-5">
+													<li class="nav-item">
+														<a class="nav-link p-1" href="#">
+															<span>Καφές και ροφήματα</span>
+														</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link p-1" href="#">
+															<span>Χυμοί και αναψυκτικά</span>
+														</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link p-1" href="#">
+															<span>Λαχταριστές πίτες & πίτσες</span>
+														</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link p-1" href="#">
+															<span>Κουλούρι Θεσσαλονίκης & Κριτσίνια</span>
+														</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link p-1" href="#">
+															<span>Energy & Bio</span>
+														</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link p-1" href="#">
+															<span>Sandwitches & Άλλα</span>
+														</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link p-1" href="#">
+															<span>Salad Bar / Σαλάτες</span>
+														</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link p-1" href="#">
+															<span>Ομελέτες</span>
+														</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link p-1" href="#">
+															<span>Hot Dogs</span>
+														</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link p-1" href="#">
+															<span>VegeterianM</span>
+														</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link p-1" href="#">
+															<span>Γλυκίσματα</span>
+														</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link p-1 main-menu-item" href="#">
+								<span>Uffici Catering</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link p-1 main-menu-item" href="#">
+								<span>Πιάτα Ημέρας</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="row d-block d-md-none">
+			<div class="col px-4">
+				<nav>
+					<ul class="navbar-nav main-menu-mobile">
+						<li class="nav-item">
+	            			<a href="#" class="nav-link p-1 main-menu-item">Η εταιρεία</a>
+	            		</li>
+	            		<li class="nav-item">
+	            			<a href="#" class="nav-link p-1 main-menu-item" data-toggle="modal" data-target="#myModal">
+	            				<span class="d-inline-block align-middle">Αναζήτηση</span>
+	            				<img class="d-inline-block align-middle" src="images/search-icon.png" width="20">
+	            			</a>
+	            		</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="row mb-3 mb-sm-5 mt-3 mt-sm-5">
+			<div class="col px-4">
+				<ul class="nav social-media">
+					<li class="mr-3 nav-item">
+						<a href="#" class="d-block nav-link">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li class="mr-3 nav-item">
+						<a href="#" class="d-block nav-link">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- The Modal -->
+<div class="modal mymodal fade" id="myModal">
+  <div class="modal-dialog mx-auto modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        	<div class="search">
+			  <div class="input-group">
+			  	  <div class="input-group-append">
+				    <span class="input-group-text">
+				    	<img src="images/orange-search.png" width="20">
+				    </span>
+				  </div>
+				  <input type="text" class="form-control" placeholder="ΑΝΑΖΗΤΗΣΗ" id="search" name="search">
+			   </div>
+	   		</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.matchHeight-min.js"></script>
+<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9dFRs8mXR1fI-mB-q-_eyo_2T0xkAhNI"></script>-->
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCBmUXYXi_Zufpz1rKucKIT1dsU9yIdx_Y&#038;ver=4.9.8'></script>
+<script src="js/map.js"></script>
+<script src="js/script.js"></script>
+<script src="js/homepage.js"></script>
+</body>
+</html>

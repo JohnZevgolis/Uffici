@@ -1,0 +1,205 @@
+.title {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+.content.product-content {
+	h1,p,button,i,h5,
+	.prev-product i {
+		color: $darkBrown;
+	}
+
+	h4 {
+		font-family: 'Roboto', sans-serif;
+		font-size: 24px;
+		color: $grey;
+		font-weight: 300;
+	}
+
+	h4.border-bottom {
+		border-bottom: 1px solid $borderBottomColor;
+	}
+
+	h5 {
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	button.slideToggle {
+		background: none;
+		border: none; 
+		box-shadow: none;
+		cursor: pointer;
+		border-bottom: 1px solid $borderBottomColor;
+
+		span {
+			font-family: 'Roboto', sans-serif;
+			text-transform: uppercase;
+		}
+
+		div.d-inline-block {
+			width: 11px;
+			height: 11px;
+			position: relative;
+		}
+
+		i {
+			@extend %center;
+
+			&:last-child {
+				display: none;
+			}
+		}
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	.prev-product {
+
+		i,hr {
+			position: absolute;
+			border: none;
+			top: 50%;
+			@include transform(translateY(-50%));
+			@include transition(all .3s);
+			@include transition-delay(.3s);
+		}
+
+		hr {
+			background-color: $darkBrown;
+			width: 20px;
+			right: 0;
+		}
+		
+		&:hover hr {
+			width: 30px;
+		}
+
+		&:hover i {
+			@include transform(translateX(-10px) translateY(-50%));
+		}
+
+		.relative {
+			width: 24px;
+		}
+	}
+
+	.borders {
+		position: absolute;
+		width: 140%;
+		height: 120%;
+		top: 50%;
+		left: -100px;
+		@include transform(translateY(-50%));
+
+		@media only screen and (max-width: 991px) {
+			width: 110%;
+			height: 140%;
+			left: 50%;
+			top: 40%;
+			@include transform(translate(-50%,-50%));
+		}
+
+		@media only screen and (max-width: 640px) {
+			display: none;
+		} 
+
+		& > div {
+			background-color: $lightGreyBorder;
+			@include transition(all .8s);
+		}
+
+		.top-border {
+			height: 1px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			@include transform(scaleX(0));	
+		}
+
+		.bottom-border {
+			height: 1px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			@include transform(scaleX(0));	
+		}
+
+		.left-border {
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 1px;
+			@include transform(scaleY(0));	
+		}
+
+		.right-border {
+			height: 100%;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 1px;
+			@include transform(scaleY(0));	
+		}
+	}
+
+	.piato:hover .borders .top-border,
+	.piato:hover .borders .bottom-border {
+		@include transform(scaleX(1));
+	}
+
+	.piato:hover .borders .left-border,
+	.piato:hover .borders .right-border {
+		@include transform(scaleY(1));
+	}
+
+	.piato .overflow-hidden img {
+		@include transition(all .5s);
+	}
+
+	.piato:hover .overflow-hidden img {
+		@include transform(scale(1.3));
+	}
+
+	.piato > div:first-child {
+		z-index: 1;
+	}
+}
+
+.product {
+
+	overflow: hidden;
+
+	.layer {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 30%;
+		z-index: 1;
+		@include transition(all .3s);
+
+		h2 {
+			font-size: 22px;
+			text-transform: uppercase;
+		}
+	}
+
+	img {
+		@include transition(all .5s);
+	}
+
+	&:hover img {
+		@include transform(scale(1.5));
+	}
+
+	&:hover .layer {
+		height: 100%;
+	}
+}
