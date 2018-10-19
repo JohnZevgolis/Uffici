@@ -4,7 +4,6 @@ $(function() {
 	dropdown();
 	mainMenu();
 	modal();
-    explorer();
     SetUpGridCols();
 
 	$(window).resize(function() {
@@ -15,7 +14,6 @@ $(function() {
 
 	$(window).scroll(function() {
 		reveal();
-		explorer();
 	})
 
 	reveal();
@@ -191,12 +189,6 @@ function modal() {
 
 function marginTop() {
 	$(".margin-top").css("margin-top",headerHeight);
-}
-
-function explorer() {
-    if (window.navigator.userAgent.indexOf("MSIE") > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
-        $(".myitem").css({"background-attachment":"scroll","background-position":"center"});
-    }
 }
 
 function SetUpGridCols() {

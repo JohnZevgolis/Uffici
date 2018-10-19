@@ -228,3 +228,9 @@ section {
 .overflow-hidden {
 	overflow: hidden;
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+   .mynavbar {
+   	height: 80px;
+   }
+}
