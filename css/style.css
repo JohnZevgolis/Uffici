@@ -510,12 +510,6 @@ header .mynavbar .navbar-brand img {
     align-items: center !important;
   }
 }
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  /* line 12, ../sass/partials/_homepage.scss */
-  .myitem .height-100 {
-    height: 100vh;
-  }
-}
 @media only screen and (max-width: 1400px) {
   /* line 5, ../sass/partials/_homepage.scss */
   .myitem {
@@ -550,7 +544,7 @@ header .mynavbar .navbar-brand img {
     background-position: center !important;
   }
 }
-/* line 59, ../sass/partials/_homepage.scss */
+/* line 55, ../sass/partials/_homepage.scss */
 .myitem h1, .myitem p, .myitem .mybtn, .myitem span.align-middle {
   -moz-transition: all 0.8s;
   -o-transition: all 0.8s;
@@ -561,7 +555,7 @@ header .mynavbar .navbar-brand img {
   position: relative;
   opacity: 0;
 }
-/* line 67, ../sass/partials/_homepage.scss */
+/* line 63, ../sass/partials/_homepage.scss */
 .myitem h1 {
   color: #ffffff;
   font-size: 55px;
@@ -573,18 +567,18 @@ header .mynavbar .navbar-brand img {
   transition-delay: 0.6s;
 }
 @media only screen and (max-width: 768px) {
-  /* line 67, ../sass/partials/_homepage.scss */
+  /* line 63, ../sass/partials/_homepage.scss */
   .myitem h1 {
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 576px) {
-  /* line 67, ../sass/partials/_homepage.scss */
+  /* line 63, ../sass/partials/_homepage.scss */
   .myitem h1 {
     font-size: 30px;
   }
 }
-/* line 83, ../sass/partials/_homepage.scss */
+/* line 79, ../sass/partials/_homepage.scss */
 .myitem p {
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -598,7 +592,7 @@ header .mynavbar .navbar-brand img {
   transition-delay: 0.9s;
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* line 93, ../sass/partials/_homepage.scss */
+  /* line 89, ../sass/partials/_homepage.scss */
   .myitem > div.d-flex {
     -webkit-box-align: center !important;
     -ms-flex-align: center !important;
@@ -606,21 +600,21 @@ header .mynavbar .navbar-brand img {
   }
 }
 
-/* line 103, ../sass/partials/_homepage.scss */
+/* line 99, ../sass/partials/_homepage.scss */
 .myitem.active span.align-middle,
 .myitem.active .mybtn {
   left: 0;
   opacity: 1;
 }
 
-/* line 109, ../sass/partials/_homepage.scss */
+/* line 105, ../sass/partials/_homepage.scss */
 .myitem.active h1,
 .myitem.active p {
   top: 0;
   opacity: 1;
 }
 
-/* line 115, ../sass/partials/_homepage.scss */
+/* line 111, ../sass/partials/_homepage.scss */
 .scale-dropdown {
   -moz-transform: translate(-50%, -50%) scale(1) !important;
   -ms-transform: translate(-50%, -50%) scale(1) !important;
@@ -629,7 +623,7 @@ header .mynavbar .navbar-brand img {
   opacity: 1 !important;
 }
 
-/* line 120, ../sass/partials/_homepage.scss */
+/* line 116, ../sass/partials/_homepage.scss */
 .scale-divider {
   -moz-transform: scale(1) !important;
   -ms-transform: scale(1) !important;
@@ -637,7 +631,7 @@ header .mynavbar .navbar-brand img {
   transform: scale(1) !important;
 }
 
-/* line 124, ../sass/partials/_homepage.scss */
+/* line 120, ../sass/partials/_homepage.scss */
 .indicators {
   position: absolute;
   bottom: 80px;
@@ -646,20 +640,20 @@ header .mynavbar .navbar-brand img {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 132, ../sass/partials/_homepage.scss */
+/* line 128, ../sass/partials/_homepage.scss */
 .indicators li {
   width: 8px;
   height: 8px;
   cursor: pointer;
 }
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (orientation: landscape) {
-  /* line 124, ../sass/partials/_homepage.scss */
+  /* line 120, ../sass/partials/_homepage.scss */
   .indicators {
     display: none !important;
   }
 }
 
-/* line 143, ../sass/partials/_homepage.scss */
+/* line 139, ../sass/partials/_homepage.scss */
 .arrows {
   position: absolute;
   bottom: 80px;
@@ -667,24 +661,24 @@ header .mynavbar .navbar-brand img {
   width: 80px;
 }
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (orientation: landscape) {
-  /* line 143, ../sass/partials/_homepage.scss */
+  /* line 139, ../sass/partials/_homepage.scss */
   .arrows {
     display: none !important;
   }
 }
 
-/* line 154, ../sass/partials/_homepage.scss */
+/* line 150, ../sass/partials/_homepage.scss */
 .carousel-control-next, .carousel-control-prev {
   position: static;
   font-size: 20px;
   opacity: 1;
 }
-/* line 159, ../sass/partials/_homepage.scss */
+/* line 155, ../sass/partials/_homepage.scss */
 .carousel-control-next:hover, .carousel-control-prev:hover {
   opacity: 1;
 }
 
-/* line 164, ../sass/partials/_homepage.scss */
+/* line 160, ../sass/partials/_homepage.scss */
 .scroll-down {
   position: absolute;
   left: 50%;
@@ -696,16 +690,16 @@ header .mynavbar .navbar-brand img {
   cursor: pointer;
 }
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (orientation: landscape) {
-  /* line 164, ../sass/partials/_homepage.scss */
+  /* line 160, ../sass/partials/_homepage.scss */
   .scroll-down {
     display: none !important;
   }
 }
-/* line 175, ../sass/partials/_homepage.scss */
+/* line 171, ../sass/partials/_homepage.scss */
 .scroll-down span {
   color: #ffffff;
 }
-/* line 179, ../sass/partials/_homepage.scss */
+/* line 175, ../sass/partials/_homepage.scss */
 .scroll-down img {
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
@@ -713,31 +707,31 @@ header .mynavbar .navbar-brand img {
   top: 0em;
 }
 
-/* line 187, ../sass/partials/_homepage.scss */
+/* line 183, ../sass/partials/_homepage.scss */
 .mymodal {
   background: rgba(255, 255, 255, 0.5);
 }
-/* line 191, ../sass/partials/_homepage.scss */
+/* line 187, ../sass/partials/_homepage.scss */
 .mymodal .modal-dialog {
   max-width: 300px;
 }
-/* line 194, ../sass/partials/_homepage.scss */
+/* line 190, ../sass/partials/_homepage.scss */
 .mymodal .modal-dialog .modal-content {
   background-color: transparent;
   border: none;
 }
-/* line 198, ../sass/partials/_homepage.scss */
+/* line 194, ../sass/partials/_homepage.scss */
 .mymodal .modal-dialog .modal-content .input-group-append .input-group-text {
   border-radius: 5px 0 0 5px;
   background-color: #ffffff;
   border: none;
 }
-/* line 204, ../sass/partials/_homepage.scss */
+/* line 200, ../sass/partials/_homepage.scss */
 .mymodal .modal-dialog .modal-content input[type="text"] {
   border: none;
   height: 70px;
 }
-/* line 208, ../sass/partials/_homepage.scss */
+/* line 204, ../sass/partials/_homepage.scss */
 .mymodal .modal-dialog .modal-content input[type="text"]:focus {
   box-shadow: none;
 }
@@ -764,58 +758,58 @@ header .mynavbar .navbar-brand img {
     transform: translateY(-5px);
   }
 }
-/* line 241, ../sass/partials/_homepage.scss */
+/* line 237, ../sass/partials/_homepage.scss */
 .bg-section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 }
-/* line 247, ../sass/partials/_homepage.scss */
+/* line 243, ../sass/partials/_homepage.scss */
 .bg-section .justify-content-start .layer {
   left: -100%;
 }
-/* line 251, ../sass/partials/_homepage.scss */
+/* line 247, ../sass/partials/_homepage.scss */
 .bg-section .justify-content-end .layer {
   right: -100%;
 }
-/* line 255, ../sass/partials/_homepage.scss */
+/* line 251, ../sass/partials/_homepage.scss */
 .bg-section .layer.fromTop {
   top: -100%;
 }
-/* line 259, ../sass/partials/_homepage.scss */
+/* line 255, ../sass/partials/_homepage.scss */
 .bg-section .layer.fromBottom {
   top: 100%;
 }
 
-/* line 264, ../sass/partials/_homepage.scss */
+/* line 260, ../sass/partials/_homepage.scss */
 .lg-section .layer {
   min-height: 500px;
 }
 
-/* line 268, ../sass/partials/_homepage.scss */
+/* line 264, ../sass/partials/_homepage.scss */
 .sm-section .layer {
   min-height: 350px;
 }
 
-/* line 272, ../sass/partials/_homepage.scss */
+/* line 268, ../sass/partials/_homepage.scss */
 #map {
   height: 400px;
 }
 
-/* line 276, ../sass/partials/_homepage.scss */
+/* line 272, ../sass/partials/_homepage.scss */
 .fadeInLeft {
   left: 0 !important;
   opacity: 1 !important;
 }
 
-/* line 281, ../sass/partials/_homepage.scss */
+/* line 277, ../sass/partials/_homepage.scss */
 .fadeInRight {
   right: 0 !important;
   opacity: 1 !important;
 }
 
-/* line 286, ../sass/partials/_homepage.scss */
+/* line 282, ../sass/partials/_homepage.scss */
 .fadeInTop {
   top: 0 !important;
   opacity: 1 !important;
