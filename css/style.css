@@ -1449,13 +1449,13 @@ header .mynavbar .navbar-brand img {
     font-size: 35px;
   }
 }
-/* line 23, ../sass/partials/_etaireia.scss */
+/* line 22, ../sass/partials/_etaireia.scss */
 .more-about-us h2:hover {
   color: #ffffff;
   background-size: 100% 100%;
 }
 
-/* line 29, ../sass/partials/_etaireia.scss */
+/* line 28, ../sass/partials/_etaireia.scss */
 .content.product-content .piato.gift .gift-image {
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -1463,7 +1463,7 @@ header .mynavbar .navbar-brand img {
   transition: all 0.3s ease-out;
 }
 
-/* line 33, ../sass/partials/_etaireia.scss */
+/* line 32, ../sass/partials/_etaireia.scss */
 .content.product-content .piato.gift .borders.etaireia-borders {
   width: 80%;
   left: 50%;
@@ -1475,14 +1475,14 @@ header .mynavbar .navbar-brand img {
   transform: translateX(-50%);
 }
 @media only screen and (max-width: 992px) {
-  /* line 33, ../sass/partials/_etaireia.scss */
+  /* line 32, ../sass/partials/_etaireia.scss */
   .content.product-content .piato.gift .borders.etaireia-borders {
     width: 110%;
     height: 100%;
   }
 }
 
-/* line 46, ../sass/partials/_etaireia.scss */
+/* line 45, ../sass/partials/_etaireia.scss */
 .transform-none {
   -moz-transform: none !important;
   -ms-transform: none !important;
