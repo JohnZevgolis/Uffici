@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="skrollr-body">
 
 <!--Header-->
 
@@ -156,11 +156,11 @@
 							<div class="right-border"></div>
 						</div>
 						<div class="col-lg-5 z-index-1 px-0">
-							<div class="gift-image">
+							<div class="gift-image relative" data-0="bottom:-300px;" data-center="bottom:0;" ">
 								<img class="d-block" src="images/gift.png">
 							</div>
 						</div>
-						<div class="col-lg-7 py-3 py-xl-5 px-3 px-lg-5">
+						<div class="col-lg-7 py-3 px-3 px-lg-5">
 							<div class="py-3 px-0 px-lg-5">
 								<div class="row">
 									<div class="col-lg-10">
@@ -500,6 +500,23 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.matchHeight-min.js"></script>
 <script src="js/script.js"></script>
-<script src="js/etaireia.js"></script>
+<script src="js/skrollr.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	if (width > 992) {
+      skrollr.init({forceHeight: false}); // skrollr.init() returns the singleton created above
+    } else {
+      skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+    }
+
+    $(window).resize(function() {
+    	if (width > 992) {
+	      skrollr.init({forceHeight: false}); // skrollr.init() returns the singleton created above
+	    } else {
+	      skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+	    }
+    })
+})
+</script>
 </body>
 </html>

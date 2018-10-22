@@ -29,9 +29,8 @@
 	}
 }
 
-.content.product-content .piato.gift .gift-image img {
-	@include transform(translate(-20px,20px));
-	@include transition(all .5s);
+.content.product-content .piato.gift .gift-image {
+	@include transition(all .3s linear);
 }
 
 .content.product-content .piato.gift .borders.etaireia-borders {

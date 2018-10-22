@@ -1456,18 +1456,14 @@ header .mynavbar .navbar-brand img {
 }
 
 /* line 32, ../sass/partials/_etaireia.scss */
-.content.product-content .piato.gift .gift-image img {
-  -moz-transform: translate(-20px, 20px);
-  -ms-transform: translate(-20px, 20px);
-  -webkit-transform: translate(-20px, 20px);
-  transform: translate(-20px, 20px);
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+.content.product-content .piato.gift .gift-image {
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
-/* line 37, ../sass/partials/_etaireia.scss */
+/* line 36, ../sass/partials/_etaireia.scss */
 .content.product-content .piato.gift .borders.etaireia-borders {
   width: 80%;
   left: 50%;
@@ -1479,14 +1475,14 @@ header .mynavbar .navbar-brand img {
   transform: translateX(-50%);
 }
 @media only screen and (max-width: 992px) {
-  /* line 37, ../sass/partials/_etaireia.scss */
+  /* line 36, ../sass/partials/_etaireia.scss */
   .content.product-content .piato.gift .borders.etaireia-borders {
     width: 110%;
     height: 100%;
   }
 }
 
-/* line 50, ../sass/partials/_etaireia.scss */
+/* line 49, ../sass/partials/_etaireia.scss */
 .transform-none {
   -moz-transform: none !important;
   -ms-transform: none !important;
