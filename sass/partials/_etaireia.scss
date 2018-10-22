@@ -9,10 +9,7 @@
 .more-about-us h2 {
 	color: $black;
 	font-weight: 500;
-    background: -webkit-gradient(linear,left top, left bottom,from($black),to($black));
-    background: -webkit-linear-gradient($black,$black);
-    background: -o-linear-gradient($black,$black);
-    background: linear-gradient($black,$black);
+    @include linear-gradient($black, $black);
 	background-size: 0 100%;
 	background-position: 0 100%;
 	background-repeat: no-repeat;

@@ -3,3 +3,10 @@
       -ms-transform-origin: $property;
           transform-origin: $property;
 }
+
+@mixin linear-gradient($color1,$color2) {
+	background: -webkit-gradient(linear,left top, left bottom,from($color1),to($color2));
+    background: -webkit-linear-gradient($color1,$color2);
+    background: -o-linear-gradient($color1,$color2);
+    background: linear-gradient($color1,$color2);
+}
