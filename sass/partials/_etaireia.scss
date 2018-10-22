@@ -30,7 +30,7 @@
 }
 
 .content.product-content .piato.gift .gift-image {
-	@include transition(all .3s linear);
+	@include transition(all .3s ease-out);
 }
 
 .content.product-content .piato.gift .borders.etaireia-borders {

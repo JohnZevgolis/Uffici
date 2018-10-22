@@ -1457,10 +1457,10 @@ header .mynavbar .navbar-brand img {
 
 /* line 32, ../sass/partials/_etaireia.scss */
 .content.product-content .piato.gift .gift-image {
-  -moz-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 /* line 36, ../sass/partials/_etaireia.scss */
