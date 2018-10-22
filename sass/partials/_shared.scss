@@ -23,6 +23,10 @@ h2 {
 h3 {
 	font-weight: bold;
 	font-size: 36px;
+
+	@media only screen and (max-width:576px) {
+		font-size: 30px;
+	}
 }
 
 .height-100 {
@@ -237,4 +241,22 @@ section {
 
 .overflow-x-hidden {
 	overflow-x: hidden;
+}
+
+.title-padding {
+	padding: 0 calc(2rem + 15px);
+}
+
+.mobile-h1 { 
+	@media only screen and (max-width: 768px) {
+		font-size: 2.4rem; 
+	}	
+
+	@media only screen and (max-width: 576px) {
+		font-size: 2rem; 
+	}	
+}
+
+.z-index-1 {
+	z-index: 1;
 }

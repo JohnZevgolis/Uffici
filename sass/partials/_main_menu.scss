@@ -219,5 +219,9 @@
 }
 
 .main-menu-padding {
-	padding: 0 calc(1.75rem - 6px + 15px);
+	padding: 0 0 0 calc(1.75rem - 6px + 15px);
+
+	@media only screen and (max-width: 768px) {
+		padding: 0 15px; 
+	}
 }

@@ -1,0 +1,52 @@
+.quote p {
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 1.1;
+	letter-spacing: 0;
+}
+
+.more-about-us h2 {
+	color: $black;
+	font-weight: 500;
+    background: -webkit-gradient(linear,left top, left bottom,from($black),to($black));
+    background: -webkit-linear-gradient($black,$black);
+    background: -o-linear-gradient($black,$black);
+    background: linear-gradient($black,$black);
+	background-size: 0 100%;
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	@include transition(.5s);
+
+	@media only screen and (max-width: 576px) {
+		font-size: 35px;
+	}
+
+
+	&:hover {
+		color: $white;
+		background-size: 100% 100%;
+	}
+}
+
+.content.product-content .piato.gift .gift-image img {
+	@include transform(translate(-20px,20px));
+	@include transition(all .5s);
+}
+
+.content.product-content .piato.gift .borders.etaireia-borders {
+	width: 80%;
+	left: 50%;
+	top: 0;
+	height: 80%;
+	@include transform(translateX(-50%));
+
+	@media only screen and (max-width: 992px) {
+		width: 110%;
+		height: 100%;
+	}
+}	
+
+.transform-none {
+	@include transform(none !important);
+}
