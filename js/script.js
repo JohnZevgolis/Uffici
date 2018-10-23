@@ -107,7 +107,7 @@ function reveal() {
         var windowBottom = $(window).height() + $(window).scrollTop();
 
         $(".lg-section,.sm-section .bg-section").each(function() {
-            var itemBottom;
+            var itemBottom = $(this).offset().top - headerHeight + $(this).outerHeight();
             if(width>768) {
                  itemBottom = $(this).offset().top + $(this).outerHeight();
             } else {

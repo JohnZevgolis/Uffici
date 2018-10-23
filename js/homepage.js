@@ -9,21 +9,10 @@ $(function() {
 	scrollDown();
 	carousel();
 
-	$(window).scroll(function() {
-		parallax();
-	})
-
 	$(window).resize(function() {
 		carousel();
 	})
 })
-
-function parallax() {
-	var scroll = $(window).scrollTop();
-	$(".myitem").each(function() {
-		$(this).css("background-position","center "+scroll*0.2+"%");
-	});
-}
 
 function scrollDown() {
 	$(".scroll-down").click(function() {

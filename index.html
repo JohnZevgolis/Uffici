@@ -67,7 +67,7 @@
 	  <!-- The slideshow -->
 	  <div class="carousel-inner">
 
-	    <div class="carousel-item active myitem" style="background-image: url('images/slide-1.jpg')">
+	    <div class="carousel-item active myitem" style="background-image: url('images/slide-1.jpg')" data-stellar-background-ratio="0.5">
 	    	<div class="overlay"></div>
 	    	<div class="d-flex justify-content-center align-items-center align-items-md-end height-100 relative">
 	    		<div class="text-center">
@@ -109,7 +109,7 @@
 	    	</div>
 	    </div>
 
-	    <div class="carousel-item myitem" style="background-image: url('images/slide-2.jpg')">
+	    <div class="carousel-item myitem" style="background-image: url('images/slide-2.jpg')" data-stellar-background-ratio="0.5">
 	    	<div class="overlay"></div>
 	    	<div class="d-flex justify-content-center align-items-center align-items-md-end height-100 relative">
 	    		<div class="text-center">
@@ -151,7 +151,7 @@
 	    	</div>
 	    </div>
 
-	    <div class="carousel-item myitem" style="background-image: url('images/slide-3.jpg')">
+	    <div class="carousel-item myitem" style="background-image: url('images/slide-3.jpg')" data-stellar-background-ratio="0.5">
 	    	<div class="overlay"></div>
 	    	<div class="d-flex justify-content-center align-items-center align-items-md-end height-100 relative">
 	    		<div class="text-center">
@@ -235,7 +235,7 @@
 		<div class="d-flex justify-content-start">
 			<div class="col-md-6 col-lg-5 col-xl-4 px-0 layer">
 				<a href="#" class="d-block h-100 pt-5">
-					<div class="pl-5 ml-5 pt-5">
+					<div class="pl-5 ml-5 pt-3 pt-sm-5 pt-md-3 pt-lg-5">
 						<h2 class="mb-4">Δείτε τα <br>Snacks</h2>
 						<span>Περισσότερα ></span>
 					</div>
@@ -248,7 +248,7 @@
 		<div class="d-flex justify-content-end">
 			<div class="layer col-md-6 col-lg-5 col-xl-4 px-0">
 				<a href="#" class="d-block h-100 pt-5">
-					<div class="pl-5 ml-5 pt-5">
+					<div class="pl-5 ml-5 pt-3 pt-sm-5 pt-md-3 pt-lg-5">
 						<h2 class="mb-4">Δείτε τα <br>Γλυκά</h2>
 						<span>Περισσότερα ></span>
 					</div>
@@ -300,7 +300,7 @@
 		<div class="d-flex justify-content-start">
 			<div class="layer col-md-6 col-lg-5 col-xl-4 px-0">
 				<a href="#" class="d-block h-100 pt-5">
-					<div class="pl-5 ml-5 mt-3 pt-5">
+					<div class="pl-5 ml-5 mt-3 pt-3 pt-sm-5 pt-md-3 pt-lg-5">
 						<h2 class="mb-4">Δείτε τα <br>προϊόντα<br>catering</h2>
 						<span>Περισσότερα ></span>
 					</div>
@@ -326,7 +326,7 @@
 		<div class="d-flex justify-content-end">
 			<div class="layer col-md-6 col-lg-5 col-xl-4 px-0">
 				<a href="#" class="d-block h-100 pt-5">
-					<div class="pl-5 ml-5 mt-3 pt-5">
+					<div class="pl-5 ml-5 mt-3 pt-3 pt-sm-5 pt-md-3 pt-lg-5">
 						<h2 class="mb-4">Δείτε τα <br>πιάτα ημέρας</h2>
 						<span>Περισσότερα ></span>
 					</div>
@@ -639,5 +639,16 @@
 <script src="js/map.js"></script>
 <script src="js/script.js"></script>
 <script src="js/homepage.js"></script>
+<script src="js/jquery-migrate-3.0.0.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script>
+$(function() {
+	$.stellar({
+		horizontalScrolling: false,
+	    verticalOffset: 0,
+	    horizontalOffset: 0
+	});
+})
+</script>
 </body>
 </html>

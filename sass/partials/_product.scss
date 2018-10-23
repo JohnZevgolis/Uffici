@@ -90,9 +90,9 @@
 	.borders {
 		position: absolute;
 		width: 140%;
-		height: 120%;
+		height: 110%;
 		top: 50%;
-		left: -100px;
+		left: -120px;
 		@include transform(translateY(-50%));
 
 		@media only screen and (max-width: 992px) {
@@ -150,7 +150,6 @@
 	}
 
 	.borders.etaireia-borders {
-		height: 110%;
 		left: -150px;
 		width: 120%;
 
