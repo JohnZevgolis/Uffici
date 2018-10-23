@@ -91,6 +91,7 @@ function dropdown() {
     });
 
 	$(".relative.dropdown-btn").click(function(e) {
+		e.preventDefault();
 		e.stopPropagation();
 		$(".mydropdown").addClass("scale-dropdown");
 		$(".mydropdown a,.mydropdown .dropdown-divider").addClass("scale-divider");

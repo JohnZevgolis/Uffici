@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="skrollr-body">
 
 <!--Header-->
 
@@ -69,7 +69,7 @@
 
 	    <div class="carousel-item active myitem" style="background-image: url('images/slide-1.jpg')" data-stellar-background-ratio="0.5">
 	    	<div class="overlay"></div>
-	    	<div class="d-flex justify-content-center align-items-center align-items-md-end height-100 relative">
+	    	<div class="d-flex justify-content-center align-items-center align-items-md-end height-100 relative" data-center="opacity: 1;top:0px;" data-top-bottom="opacity: 0;top:-100px">
 	    		<div class="text-center">
 	    			<div class="pb-4">
 		    			<span class="d-block d-md-inline-block align-middle mb-2 mb-md-0 mr-0 mr-md-3 title-span">Έχω όρεξη για</span>
@@ -111,7 +111,7 @@
 
 	    <div class="carousel-item myitem" style="background-image: url('images/slide-2.jpg')" data-stellar-background-ratio="0.5">
 	    	<div class="overlay"></div>
-	    	<div class="d-flex justify-content-center align-items-center align-items-md-end height-100 relative">
+	    	<div class="d-flex justify-content-center align-items-center align-items-md-end height-100 relative" data-center="opacity: 1;top:0px;" data-top-bottom="opacity: 0;top:-100px">
 	    		<div class="text-center">
 	    			<div class="pb-4">
 		    			<span class="d-block d-md-inline-block align-middle mb-2 mb-md-0 mr-0 mr-md-3 title-span">Έχω όρεξη για</span>
@@ -153,7 +153,7 @@
 
 	    <div class="carousel-item myitem" style="background-image: url('images/slide-3.jpg')" data-stellar-background-ratio="0.5">
 	    	<div class="overlay"></div>
-	    	<div class="d-flex justify-content-center align-items-center align-items-md-end height-100 relative">
+	    	<div class="d-flex justify-content-center align-items-center align-items-md-end height-100 relative" data-center="opacity: 1;top:0px;" data-top-bottom="opacity: 0;top:-100px">
 	    		<div class="text-center">
 	    			<div class="pb-4">
 		    			<span class="d-block d-md-inline-block align-middle mb-2 mb-md-0 mr-0 mr-md-3 title-span">Έχω όρεξη για</span>
@@ -641,14 +641,6 @@
 <script src="js/homepage.js"></script>
 <script src="js/jquery-migrate-3.0.0.js"></script>
 <script src="js/jquery.stellar.min.js"></script>
-<script>
-$(function() {
-	$.stellar({
-		horizontalScrolling: false,
-	    verticalOffset: 0,
-	    horizontalOffset: 0
-	});
-})
-</script>
+<script src="js/skrollr.min.js"></script>
 </body>
 </html>

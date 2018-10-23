@@ -1,15 +1,15 @@
 $(function() {
 	if (width > 992) {
-      skrollr.init({forceHeight: false}); // skrollr.init() returns the singleton created above
+      skrollr.init({forceHeight: false});
     } else {
-      skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+      skrollr.init().destroy();
     }
 
     $(window).resize(function() {
     	if (width > 992) {
-	      skrollr.init({forceHeight: false}); // skrollr.init() returns the singleton created above
+	      skrollr.init({forceHeight: false});
 	    } else {
-	      skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+	      skrollr.init().destroy();
 	    }
     })
 })

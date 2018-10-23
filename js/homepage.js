@@ -8,9 +8,12 @@ $(function() {
 
 	scrollDown();
 	carousel();
+	textFadeOut();
+	backgroundParallax();
 
 	$(window).resize(function() {
 		carousel();
+		textFadeOut();
 	})
 })
 
@@ -27,3 +30,23 @@ function carousel() {
 		$(".mycarousel").removeClass("margin-top").removeAttr("style");
 	}
 }
+
+function textFadeOut() {
+	$("#demo").on('slid.bs.carousel', function () {
+	   skrollr.init().refresh();
+	});
+
+	if (width > 768) {
+      skrollr.init({forceHeight: false});
+    } else {
+      skrollr.init().destroy();
+    }
+}
+
+function backgroundParallax() {
+	$.stellar({
+		horizontalScrolling: false,
+	    verticalOffset: 0,
+	    horizontalOffset: 0
+	});
+}	
