@@ -6,9 +6,14 @@
 }
 
 .content.product-content {
-	h1,p,button,i,h5,
+	h1,h2,p,button,i,h5,
 	.prev-product i {
 		color: $darkBrown;
+	}
+
+	h2 {
+		font-weight: bold;
+		font-size: 2.5rem;
 	}
 
 	h4 {
@@ -95,7 +100,7 @@
 		left: -120px;
 		@include transform(translateY(-50%));
 
-		@media only screen and (max-width: 992px) {
+		@media only screen and (max-width: 991px) {
 			width: 110%;
 			height: 140%;
 			left: 50%;
@@ -153,7 +158,7 @@
 		left: -150px;
 		width: 120%;
 
-		@media only screen and (max-width: 992px) {
+		@media only screen and (max-width: 991px) {
 			left: 50%;
 			height: 140%;
 			width: 110%;
@@ -163,7 +168,7 @@
 	.borders.etaireia-borders.left-borders {
 		left: 0;
 
-		@media only screen and (max-width: 992px) {
+		@media only screen and (max-width: 991px) {
 			left: 50%;
 		}
 	}
@@ -193,6 +198,10 @@
 		text-transform: uppercase;
 		font-size: 16px;
 
+		@media only screen and (max-width: 576px) {
+			font-size: 13px;
+		}
+
 		&:after {
 			content: '';
 			position: absolute;
@@ -203,6 +212,10 @@
 			top: 50%;
 			z-index: -1;
 			@include transition(all .4s ease-in-out);
+
+			@media only screen and (max-width: 576px) {
+				height: 15px;
+			}
 		}
 
 		&:hover:after {
@@ -241,5 +254,13 @@
 
 	&:hover .layer {
 		height: 100%;
+	}
+}
+
+.content.product-content.more-about-us {
+	h2 {
+		@media only screen and (max-width:767px) {
+			font-size: 2rem;
+		}
 	}
 }

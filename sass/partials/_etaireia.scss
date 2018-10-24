@@ -27,6 +27,10 @@
 
 .content.product-content .piato.gift .gift-image {
 	@include transition(all .3s ease-out);
+
+	@media only screen and (max-width: 991px) {
+		@include transform(translate3d(0,0,0) !important);
+	}
 }
 
 .content.product-content .piato.gift .borders.etaireia-borders {
@@ -36,7 +40,7 @@
 	height: 100%;
 	@include transform(translateX(-50%));
 
-	@media only screen and (max-width: 992px) {
+	@media only screen and (max-width: 991px) {
 		width: 110%;
 		height: 100%;
 	}

@@ -1,5 +1,6 @@
 $(function() {
 	var $carousel = $('#demo');
+
 	$carousel.bind('slide.bs.carousel', function (e) {
 	    if($(".myitem .mydropdown").hasClass("scale-dropdown")) {
 	    	$(this).removeClass("scale-dropdown");
@@ -8,12 +9,11 @@ $(function() {
 
 	scrollDown();
 	carousel();
-	textFadeOut();
 	backgroundParallax();
+	textFadeOut();
 
 	$(window).resize(function() {
 		carousel();
-		textFadeOut();
 	})
 })
 
@@ -24,23 +24,11 @@ function scrollDown() {
 }
 
 function carousel() {
-	if(width<768) {
+	if(width<767) {
 		$(".mycarousel").addClass("margin-top");
 	} else {
 		$(".mycarousel").removeClass("margin-top").removeAttr("style");
 	}
-}
-
-function textFadeOut() {
-	$("#demo").on('slid.bs.carousel', function () {
-	   skrollr.init().refresh();
-	});
-
-	if (width > 768) {
-      skrollr.init({forceHeight: false});
-    } else {
-      skrollr.init().destroy();
-    }
 }
 
 function backgroundParallax() {
@@ -50,3 +38,17 @@ function backgroundParallax() {
 	    horizontalOffset: 0
 	});
 }	
+
+function textFadeOut() {
+	$(".myitem").each(function() {
+		var controller = new ScrollMagic.Controller();
+
+	    var scene = new ScrollMagic.Scene({
+	      triggerElement: $(".height-100",this),
+	      duration: "100%",
+	      triggerHook: 0
+	    })
+	    .setTween(TweenMax.to(".height-100",6,{y:"-200px",opacity:"0",ease:SlowMo.easeOut}))
+	    .addTo(controller);
+	}) 
+}

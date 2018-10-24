@@ -11,12 +11,12 @@
     .height-100 {
         padding-bottom: 200px;
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 767px) {
             opacity: 1 !important;
-            top: 0 !important;
+            @include transform(translate3d(0,0,0) !important);
         }
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 767px) {
             padding-bottom: 0;
         }
 
@@ -36,7 +36,7 @@
         }
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
     	background-attachment: scroll;
         background-position: center !important;
     }
@@ -61,7 +61,7 @@
     	top: 40px;
     	@include transition-delay(.6s);
 
-    	@media only screen and (max-width: 768px) {
+    	@media only screen and (max-width: 767px) {
     		font-size: 40px;
     	}
 
@@ -241,11 +241,11 @@
             left: -41.666667%
         }
 
-        @media only screen and (max-width: 992px) {
+        @media only screen and (max-width: 991px) {
             left: -50%
         }
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 767px) {
             left: -100%
         }
 	}
@@ -257,11 +257,11 @@
             right: -41.666667%
         }
 
-        @media only screen and (max-width: 992px) {
+        @media only screen and (max-width: 991px) {
             right: -50%
         }
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 767px) {
             right: -100%
         }
 	}
@@ -282,11 +282,11 @@
         min-height: 450px;
     }
 
-    @media only screen and (max-width: 992px) {
+    @media only screen and (max-width: 991px) {
         min-height: 400px;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
         min-height: 500px;
     }
 

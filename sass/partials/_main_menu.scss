@@ -16,7 +16,7 @@
 		max-height: 100vh;
 	}
 
-	@media only screen and (max-width: 768px) {
+	@media only screen and (max-width: 767px) {
 		min-width: 100%;
 	}
 
@@ -68,7 +68,7 @@
 
 			line-height: 3.5;
 
-			@media only screen and (max-width:768px) {
+			@media only screen and (max-width:767px) {
 				line-height: 2.5;
 			}
 
@@ -89,12 +89,15 @@
 					background-color: $black;
 					top: 50%;
 					left: 0;
-					display: none;
-					width: 90%;
+					width: 0;
     				height: 40px;
-				    display: none;
 				    @include transform(translateY(-50%));
 				    z-index: 1;
+				    @include transition(all .3s);
+				}
+
+				span {
+					@include transition(all .3s);
 				}
 
 				&:hover span {
@@ -104,7 +107,7 @@
 				}
 
 				&:hover:before {
-					display: block;
+					width: 90%;
 				}
 			}
 		}
@@ -118,6 +121,7 @@
 			@include transition(all .3s);
 			z-index: -1;
 			overflow-x: hidden;
+			width: 0;
 
 			.nav-item {
 				line-height: 2.5;
@@ -127,7 +131,7 @@
 
 				font-size: 21px;
 
-				&:before {
+				&:hover:before {
 					width: 95%;
 				}
 				
@@ -218,7 +222,7 @@
 .main-menu-padding {
 	padding: 0 0 0 calc(1.75rem - 6px + 15px);
 
-	@media only screen and (max-width: 768px) {
+	@media only screen and (max-width: 767px) {
 		padding: 0 15px; 
 	}
 }

@@ -27,7 +27,7 @@ var headerHeight;
 function footer() {
 	width=$(window).width()+getScrollBarWidth()
 	var footer=$("footer").outerHeight();
-	if(width>992) {
+	if(width>991) {
 		$(".footer-height").css("height",footer);
 	} else {
 		$(".footer-height").css("height","auto");

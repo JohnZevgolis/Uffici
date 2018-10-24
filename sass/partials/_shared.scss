@@ -25,7 +25,7 @@ h3 {
 	font-size: 36px;
 
 	@media only screen and (max-width:576px) {
-		font-size: 30px;
+		font-size: 27px;
 	}
 }
 
@@ -121,7 +121,7 @@ section {
 	-webkit-backface-visibility: hidden;
 	overflow: hidden;
 
-	@media only screen and (max-width: 768px) {
+	@media only screen and (max-width: 767px) {
 		overflow: visible;
 	}
 
@@ -134,7 +134,7 @@ section {
 	    box-sizing: content-box;
 	    overflow-x: hidden;
 
-		@media only screen and (max-width: 768px) {
+		@media only screen and (max-width: 767px) {
 			max-height: 200px;
 			margin-right: 0;
 			margin-left: 0;
@@ -180,7 +180,7 @@ section {
 	font-weight: 300;
 	white-space: nowrap;
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 767px) {
 		left: 50%;
 		@include transform(translate(-50%));
 	}
@@ -248,7 +248,7 @@ section {
 }
 
 .mobile-h1 { 
-	@media only screen and (max-width: 768px) {
+	@media only screen and (max-width: 767px) {
 		font-size: 2.4rem; 
 	}	
 
