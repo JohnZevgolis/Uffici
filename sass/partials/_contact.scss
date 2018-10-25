@@ -1,0 +1,94 @@
+.contact-form {
+
+	form {
+
+		.borders {
+			border: 1px solid $lightGreyBorder;
+			@extend %center;
+			height: 100%;
+			width: 120%;
+
+			@media only screen and (max-width: 1400px) {
+				width: 105%;
+			}
+		}
+
+		label {
+			color: $black;
+			font-size: 20px;
+		}
+
+		label.error {
+			color: red;
+			font-weight: bold;
+			font-size: 16px;
+		}
+
+		input,textarea {
+			background-color: $inputBgColor;
+			border: none;
+			height: 4rem;
+			@include border-radius(0);
+			&:focus {
+				border: none;
+				@include box-shadow(none);
+				background-color: $inputBgColor;
+			}
+
+			@media only screen and (max-width: 1200px) {
+				height: 3.5rem;
+			}
+
+			@media only screen and (max-width: 991px) {
+				height: 3rem;
+			}
+		}
+
+		textarea {
+			resize: none;
+			height: 15rem;
+
+			@media only screen and (max-width: 1200px) {
+				height: 14rem;
+			}
+
+			@media only screen and (max-width: 991px) {
+				height: 13rem;
+			}
+		}
+
+		button {
+			color: #000000;
+		    font-weight: bold;
+		    font-family: 'Roboto', sans-serif;
+		    text-transform: uppercase;
+		    font-size: 16px;
+		    background: none;
+
+		    &:after {
+		    	content: '';
+			    position: absolute;
+			    background: #feaf28;
+			    width: 80%;
+			    height: 20px;
+			    left: 0;
+			    top: 50%;
+			    z-index: -1;
+			    @include transition(all 0.4s ease-in-out);
+		    }
+
+		    &:hover:after {
+		    	width: 0;
+		    }
+
+		    &:focus {
+		    	@include box-shadow(none);
+		    }
+		}
+
+		.g-recaptcha.error {
+			outline: 4px solid red;
+		}
+	}
+	
+}

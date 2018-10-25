@@ -178,6 +178,7 @@ function mainMenu() {
 			$(".main-menu .navbar-nav .nav-link,.main-menu .social-media .nav-item").removeClass("fadeInLeft");
 		});
 	})
+	
 }
 
 function modal() {

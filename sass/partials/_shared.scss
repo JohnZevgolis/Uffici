@@ -198,8 +198,9 @@ section {
 
 .content {
 
-	h1 {
+	h1,h2 {
 		font-weight: bold;
+		font-size: 36px;
 	}
 
 	hr {
@@ -247,11 +248,8 @@ section {
 	padding: 0 calc(2rem + 15px);
 }
 
-.mobile-h1 { 
-	@media only screen and (max-width: 767px) {
-		font-size: 2.4rem; 
-	}	
-
+h1.mobile-heading,
+h2.mobile-heading { 	
 	@media only screen and (max-width: 576px) {
 		font-size: 2rem; 
 	}	

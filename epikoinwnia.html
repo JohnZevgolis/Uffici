@@ -66,81 +66,21 @@
 
 	<!--Title-->
 
-	<section class="title py-5" style="background-image: url('images/product-title.jpg')">
+	<section class="title pt-5" style="background-image: url('images/piata-imeras-title.jpg')">
 		<div class="overlay"></div>
-		<div class="container py-3">
+		<div class="container pyt3">
 			<div class="row">
-				<div class="col text-center py-5">
-					<span class="d-block d-md-inline-block align-middle mb-2 mb-md-0 mr-0 mr-md-3 title-span">Έχω όρεξη για</span>
-	    			<div class="d-block d-md-inline-block align-middle">
-		    			<a href="#" class="btn mybtn white-bg py-3 px-4">
-		    				<span>ΠΙΑΤΑ ΗΜΕΡΑΣ</span>
-		    			</a>
-					</div>
+				<div class="col text-center pt-5">
+		    		<h1 class="white-color mb-0">Επικοινωνία</h1>
 				</div>
 			</div>
 		</div>
-	</section>
-
-	<!--Product-->
-
-	<section class="py-5 content product-content">
-		<div class="container py-0 py-md-5">
-			<div class="row">
-				<div class="col-md-10 offset-md-1">
-					<div class="row">
-						<div class="col-lg-6 mb-4 mb-lg-0">
-							<img src="images/kebap.jpg">
-						</div>
-						<div class="col-lg-6">
-							<a href="#" class="prev-product">
-								<div class="d-flex align-items-center">
-									<div class="relative">
-										<i class="fas fa-angle-left d-block"></i>
-										<hr class="m-0">
-									</div>
-									<h5 class="ml-3 mb-0">Γεύματα</h5>
-								</div>
-							</a>
-							<h1>Μερίδα Κεμπάπ</h1>
-							<hr class="d-inline-block">
-							<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-							<h4 class="pb-3 mb-0 border-bottom">Ενέργεια: 640kcal</h4>
-							<button data-toggle="collapse" class="slideToggle px-0 w-100 py-2 border-bottom" data-target="#demo">
-								<div class="d-flex justify-content-between align-items-center">
-									<div>
-										<span>Συστατικά</span>
-										<div class="d-inline-block ml-2">
-											<i class="fas fa-angle-down"></i>
-											<i class="fas fa-times"></i>
-										</div>
-									</div>
-									<img src="images/hat.png">
-								</div>
-								<div id="demo" class="collapse">
-									<div class="py-3 text-left">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis bibendum nisl, eu lacinia quam sodales vel.
-									</div>
-								</div>
-							</button>
-							
-							<button data-toggle="collapse" class="slideToggle px-0 w-100 py-2 border-bottom" data-target="#demo2">
-								<div class="d-flex justify-content-between align-items-center">
-									<div>
-										<span>Αλλεργιογόνα</span>
-										<div class="d-inline-block ml-2">
-											<i class="fas fa-angle-down"></i>
-											<i class="fas fa-times"></i>
-										</div>
-									</div>
-									<img src="images/hand.png">
-								</div>
-								<div id="demo2" class="collapse">
-									<div class="py-3 text-left">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis bibendum nisl, eu lacinia quam sodales vel.
-									</div>
-								</div>
-							</button>
+		<div class="container-fluid pb-3">
+			<div class="title-padding">
+				<div class="row">
+					<div class="col py-5">
+						<div class="call-us">
+							<p class="mb-0">Τηλέφωνο παραγγελιών: <br class="d-block d-md-none"><span class="ml-1">210-6200650</span></p>
 						</div>
 					</div>
 				</div>
@@ -148,72 +88,98 @@
 		</div>
 	</section>
 
-	<!--Relevant Products-->
+	<!--More Information-->
 
-	<section class="pt-0 pt-md-5 pb-5 white-bg">
-		<div class="container">
+	<section class="pt-5 pb-4 white-bg content">
+		<div class="container pt-0 pt-md-5">
 			<div class="row">
-				<div class="col text-center">
-					<h3 class="mb-0">Παρόμοια Προϊόντα</h3>
+				<div class="col">
+					<h2 class="mb-0 mobile-heading">Χρειάζεστε περισσότερες πληροφορίες</h2>
+					<hr class="d-inline-block">
+					<p>Επικοινωνήστε μαζί μας</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="white-bg pb-0 pb-md-5">
-		<div class="container pb-5">
-			<div class="row">
-				<div class="col-md-4">
-					<a href="#" class="product d-block mb-4 mb-md-0">
-						<div class="layer d-flex align-items-center justify-content-center text-center px-3">
-							<h2 class="mb-0">Πένες</h2>
+	<!--Contact Form-->
+
+	<section class="contact-form pb-5">
+		<div class="container pb-0 pb-md-5">
+			<form id="contact-form" class="py-0 py-md-5 relative" novalidate>
+				<div class="borders d-none d-md-block"></div>
+				<div class="row">
+					<div class="col py-0 py-xl-5">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+								    <label for="firstname" class="mb-1">Όνομα</label>
+								    <input type="text" class="form-control" id="firstname" name="firstname" required>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+								    <label for="surname" class="mb-1">Επώνυμο</label>
+								    <input type="text" class="form-control" id="surname" name="surname" required>
+								</div>
+							</div>
 						</div>
-						<img src="images/penes.jpg" class="grid_col d-block">
-					</a>
-				</div>
-				<div class="col-md-4">
-					<a href="#" class="product d-block mb-4 mb-md-0">
-						<div class="layer d-flex align-items-center justify-content-center text-center px-3">
-							<h2 class="mb-0">Παστίτσιο</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+								    <label for="email" class="mb-1">Email</label>
+								    <input type="email" class="form-control" id="email" name="email" required>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+								    <label for="phone" class="mb-1">Τηλέφωνο</label>
+								    <input type="tel" class="form-control" id="phone" name="phone" required>
+								</div>
+							</div>
 						</div>
-						<img src="images/pastitsio.jpg" class="grid_col d-block">
-					</a>
-				</div>
-				<div class="col-md-4">
-					<a href="#" class="product d-block mb-4 mb-md-0">
-						<div class="layer d-flex align-items-center justify-content-center text-center px-3">
-							<h2 class="mb-0">Bolognese</h2>
+						<div class="row">
+							<div class="col">
+								<div class="form-group mb-4">
+								    <label for="message" class="mb-1">Μήνυμα</label>
+								    <textarea placeholder="Γράψτε εδώ το μήνυμά σας" class="form-control p-4" id="message" name="message" required></textarea>
+								</div>
+							</div>
 						</div>
-						<img src="images/bolognese.jpg" class="grid_col d-block">
-					</a>
+						<div class="row">
+							<div class="col">
+								<div class="form-group" id="recaptcha">
+									<div class="g-recaptcha" data-sitekey="6LdexHYUAAAAAIO5sNauadxcXiL6q6PJCsn7osTy"></div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="form-group">
+									<button type="submit" class="btn z-index-1 relative pl-5">Αποστολή</button>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
+			</form>
 		</div>
 	</section>
 
-	<!--Catering-->
+	<!--Map Section-->
 
 	<section class="py-5 black-bg">
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<h3 class="mb-0">Uffici Catering</h3>
+					<h3 class="mb-0">Βρείτε μας</h3>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="bg-section lg-section" style="background-image: url('images/catering.jpg')">
-		<div class="d-flex justify-content-start">
-			<div class="layer col-md-6 col-lg-5 col-xl-4 px-0">
-				<a href="#" class="d-block h-100 pt-5">
-					<div class="pl-5 ml-5 mt-3 pt-3 pt-sm-5 pt-md-3 pt-lg-5">
-						<h2 class="mb-4">Δείτε τα <br>προϊόντα<br>catering</h2>
-						<span>Περισσότερα ></span>
-					</div>
-				</a>
-			</div>
-		</div>
+	<section class="map">
+		<div id="map"></div>
 	</section>
 </div>
 
@@ -499,7 +465,12 @@
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.matchHeight-min.js"></script>
+<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9dFRs8mXR1fI-mB-q-_eyo_2T0xkAhNI"></script>-->
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCBmUXYXi_Zufpz1rKucKIT1dsU9yIdx_Y&#038;ver=4.9.8'></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="js/map.js"></script>
 <script src="js/script.js"></script>
-<script src="js/product.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/contact.js"></script>
 </body>
 </html>
