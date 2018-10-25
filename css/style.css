@@ -351,7 +351,11 @@ header .mynavbar .nav-link {
   text-transform: uppercase;
   position: relative;
 }
-/* line 16, ../sass/partials/_header.scss */
+/* line 14, ../sass/partials/_header.scss */
+header .mynavbar .nav-link img[width="20"] {
+  margin-top: -4px;
+}
+/* line 20, ../sass/partials/_header.scss */
 header .mynavbar .navbar-toggler .middle-bar {
   margin-top: 5px;
   -moz-transition-delay: 0.2s;
@@ -359,7 +363,7 @@ header .mynavbar .navbar-toggler .middle-bar {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
-/* line 21, ../sass/partials/_header.scss */
+/* line 25, ../sass/partials/_header.scss */
 header .mynavbar .navbar-toggler .bottom-bar {
   margin-top: 5px;
   -moz-transition-delay: 0.4s;
@@ -367,12 +371,12 @@ header .mynavbar .navbar-toggler .bottom-bar {
   -webkit-transition-delay: 0.4s;
   transition-delay: 0.4s;
 }
-/* line 26, ../sass/partials/_header.scss */
+/* line 30, ../sass/partials/_header.scss */
 header .mynavbar .navbar-toggler:focus {
   outline: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 31, ../sass/partials/_header.scss */
+  /* line 35, ../sass/partials/_header.scss */
   header .mynavbar .navbar-brand {
     position: static;
     -moz-transform: none;
@@ -381,18 +385,18 @@ header .mynavbar .navbar-toggler:focus {
     transform: none;
   }
 }
-/* line 40, ../sass/partials/_header.scss */
+/* line 44, ../sass/partials/_header.scss */
 header .mynavbar .navbar-brand img {
   max-height: 70px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 40, ../sass/partials/_header.scss */
+  /* line 44, ../sass/partials/_header.scss */
   header .mynavbar .navbar-brand img {
     max-height: 60px;
   }
 }
 
-/* line 52, ../sass/partials/_header.scss */
+/* line 56, ../sass/partials/_header.scss */
 .fadeOutRight {
   opacity: 0;
   -moz-transform: translateX(10px);

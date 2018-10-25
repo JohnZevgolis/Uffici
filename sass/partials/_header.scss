@@ -10,6 +10,10 @@ header {
 			color: $brown;
 			text-transform: uppercase;
 			position: relative;
+
+			img[width="20"] {
+				margin-top: -4px;
+			}
 		}
 
 		.navbar-toggler {
