@@ -100,18 +100,6 @@
 		left: -120px;
 		@include transform(translateY(-50%));
 
-		@media only screen and (max-width: 991px) {
-			width: 110%;
-			height: 140%;
-			left: 50%;
-			top: 40%;
-			@include transform(translate(-50%,-50%));
-		}
-
-		@media only screen and (max-width: 640px) {
-			display: none;
-		} 
-
 		& > div {
 			background-color: $lightGreyBorder;
 			@include transition(all .8s);
@@ -157,20 +145,10 @@
 	.borders.etaireia-borders {
 		left: -150px;
 		width: 120%;
-
-		@media only screen and (max-width: 991px) {
-			left: 50%;
-			height: 140%;
-			width: 110%;
-		}
 	}
 
 	.borders.etaireia-borders.left-borders {
 		left: 0;
-
-		@media only screen and (max-width: 991px) {
-			left: 50%;
-		}
 	}
 
 	.piato:hover .borders .top-border,
