@@ -75,7 +75,7 @@ section {
 }
 
 /* line 62, ../sass/partials/_shared.scss */
-header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-menu .social-media a i, .content.product-content button.slideToggle i, .contact-form form .borders {
+header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-menu .social-media a i, .content.product-content button.slideToggle i, .contact-form form .borders, .content.product-content.news .new-borders {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -326,6 +326,14 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
 /* line 258, ../sass/partials/_shared.scss */
 .z-index-1 {
   z-index: 1;
+}
+
+/* line 262, ../sass/partials/_shared.scss */
+.new-date {
+  color: #1f1812;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 /* line 1, ../sass/partials/_header.scss */
@@ -1654,7 +1662,7 @@ header .mynavbar .navbar-brand img {
   content: '';
   position: absolute;
   background: #feaf28;
-  width: 80%;
+  width: 70%;
   height: 20px;
   left: 0;
   top: 50%;
@@ -1677,4 +1685,44 @@ header .mynavbar .navbar-brand img {
 /* line 89, ../sass/partials/_contact.scss */
 .contact-form form .g-recaptcha.error {
   outline: 4px solid red;
+}
+
+/* line 2, ../sass/partials/_news.scss */
+.content.product-content.news h2 {
+  font-weight: 500;
+  line-height: 1;
+  font-size: 3rem;
+}
+@media only screen and (max-width: 1200px) {
+  /* line 2, ../sass/partials/_news.scss */
+  .content.product-content.news h2 {
+    font-size: 2.2rem;
+  }
+}
+/* line 12, ../sass/partials/_news.scss */
+.content.product-content.news .new-borders {
+  width: 90%;
+  top: 70%;
+  height: 80%;
+}
+@media only screen and (max-width: 991px) {
+  /* line 12, ../sass/partials/_news.scss */
+  .content.product-content.news .new-borders {
+    height: 70%;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 12, ../sass/partials/_news.scss */
+  .content.product-content.news .new-borders {
+    height: 65%;
+  }
+}
+/* line 29, ../sass/partials/_news.scss */
+.content.product-content.news .new a {
+  font-size: 14px;
+}
+/* line 32, ../sass/partials/_news.scss */
+.content.product-content.news .new a:after {
+  height: 15px;
 }

@@ -1,0 +1,38 @@
+.content.product-content.news {
+	h2 {
+		font-weight: 500;
+		line-height: 1;
+		font-size: 3rem;
+
+		@media only screen and (max-width: 1200px) {
+			font-size: 2.2rem;
+		}
+	}
+
+	.new-borders {
+		@extend %center;
+		width: 90%;
+		top: 70%;
+		height: 80%;
+
+		@media only screen and (max-width: 991px) {
+			height: 70%;
+			width: 100%;
+		}
+
+		@media only screen and (max-width: 767px) {
+			height: 65%;
+		}
+	}
+
+	.new {
+		a {
+			font-size: 14px;
+
+			&:after {
+				height: 15px;
+			}
+		}
+	}
+
+}
