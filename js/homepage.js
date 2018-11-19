@@ -48,7 +48,8 @@ function textFadeOut() {
 	      duration: "100%",
 	      triggerHook: 0
 	    })
-	    .setTween(TweenMax.to(".height-100",6,{y:"-200px",opacity:"0",ease:SlowMo.easeOut}))
+	    .setTween(TweenMax.fromTo(".height-100",6,{y:"0",opacity:"1"}, {y:"-200px",opacity:"0",ease:SlowMo.easeOut}))
 	    .addTo(controller);
+
 	}) 
 }
