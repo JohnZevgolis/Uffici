@@ -78,6 +78,8 @@
     	max-width: 60%;
     	top: 20px;
     	@include transition-delay(.9s);
+        margin: 0 auto;
+        margin-bottom: 0;
     }
 
     & > div.d-flex {
