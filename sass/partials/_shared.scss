@@ -150,6 +150,10 @@ section {
 		will-change: transform;
 	}
 
+	.dropdown-divider:last-child {
+		display: none;
+	}
+
 	a:active {
 		background: #f8f9fa;
 		color: #16181b;

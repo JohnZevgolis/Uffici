@@ -198,12 +198,16 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   will-change: transform;
 }
 /* line 153, ../sass/partials/_shared.scss */
+.mydropdown .dropdown-divider:last-child {
+  display: none;
+}
+/* line 157, ../sass/partials/_shared.scss */
 .mydropdown a:active {
   background: #f8f9fa;
   color: #16181b;
 }
 
-/* line 159, ../sass/partials/_shared.scss */
+/* line 163, ../sass/partials/_shared.scss */
 .layer {
   background-color: rgba(255, 255, 255, 0.6);
   -moz-transition: all 0.5s ease-out;
@@ -211,7 +215,7 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 163, ../sass/partials/_shared.scss */
+/* line 167, ../sass/partials/_shared.scss */
 .layer h2, .layer a {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -219,13 +223,13 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   transition: all 0.3s;
   color: #343534;
 }
-/* line 168, ../sass/partials/_shared.scss */
+/* line 172, ../sass/partials/_shared.scss */
 .layer span {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
 }
 
-/* line 174, ../sass/partials/_shared.scss */
+/* line 178, ../sass/partials/_shared.scss */
 .call-us {
   position: absolute;
   left: 0;
@@ -236,7 +240,7 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   white-space: nowrap;
 }
 @media screen and (max-width: 767px) {
-  /* line 174, ../sass/partials/_shared.scss */
+  /* line 178, ../sass/partials/_shared.scss */
   .call-us {
     left: 50%;
     -moz-transform: translate(-50%);
@@ -245,36 +249,36 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
     transform: translate(-50%);
   }
 }
-/* line 188, ../sass/partials/_shared.scss */
+/* line 192, ../sass/partials/_shared.scss */
 .call-us p {
   font-weight: 300;
 }
-/* line 191, ../sass/partials/_shared.scss */
+/* line 195, ../sass/partials/_shared.scss */
 .call-us p span {
   font-weight: bold;
   font-size: 30px;
 }
 
-/* line 201, ../sass/partials/_shared.scss */
+/* line 205, ../sass/partials/_shared.scss */
 .content h1, .content h2 {
   font-weight: bold;
   font-size: 36px;
 }
-/* line 206, ../sass/partials/_shared.scss */
+/* line 210, ../sass/partials/_shared.scss */
 .content hr {
   background-color: #ff9900;
   border: none;
   height: 2px;
   width: 40px;
 }
-/* line 213, ../sass/partials/_shared.scss */
+/* line 217, ../sass/partials/_shared.scss */
 .content p {
   font-family: 'Roboto', sans-serif;
   color: #222;
   font-weight: 300;
 }
 
-/* line 221, ../sass/partials/_shared.scss */
+/* line 225, ../sass/partials/_shared.scss */
 .fromLeft {
   left: -50px;
   opacity: 0;
@@ -284,7 +288,7 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   transition: all 0.5s;
 }
 
-/* line 227, ../sass/partials/_shared.scss */
+/* line 231, ../sass/partials/_shared.scss */
 .fromRight {
   right: -50px;
   opacity: 0;
@@ -294,41 +298,41 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   transition: all 0.5s;
 }
 
-/* line 233, ../sass/partials/_shared.scss */
+/* line 237, ../sass/partials/_shared.scss */
 .overflow-hidden {
   overflow: hidden;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  /* line 238, ../sass/partials/_shared.scss */
+  /* line 242, ../sass/partials/_shared.scss */
   .mynavbar {
     height: 80px;
   }
 }
-/* line 243, ../sass/partials/_shared.scss */
+/* line 247, ../sass/partials/_shared.scss */
 .overflow-x-hidden {
   overflow-x: hidden;
 }
 
-/* line 247, ../sass/partials/_shared.scss */
+/* line 251, ../sass/partials/_shared.scss */
 .title-padding {
   padding: 0 calc(2rem + 15px);
 }
 
 @media only screen and (max-width: 576px) {
-  /* line 251, ../sass/partials/_shared.scss */
+  /* line 255, ../sass/partials/_shared.scss */
   h1.mobile-heading,
   h2.mobile-heading {
     font-size: 1.7rem;
   }
 }
 
-/* line 258, ../sass/partials/_shared.scss */
+/* line 262, ../sass/partials/_shared.scss */
 .z-index-1 {
   z-index: 1;
 }
 
-/* line 262, ../sass/partials/_shared.scss */
+/* line 266, ../sass/partials/_shared.scss */
 .new-date {
   color: #1f1812;
   font-family: 'Roboto', sans-serif;
