@@ -167,7 +167,6 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
 /* line 128, ../sass/partials/_shared.scss */
 .mydropdown div {
   max-height: 280px;
-  max-height: 280px;
   overflow-y: auto;
   margin-right: -20px;
   margin-left: -20px;
@@ -184,7 +183,7 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
     overflow-y: auto;
   }
 }
-/* line 146, ../sass/partials/_shared.scss */
+/* line 145, ../sass/partials/_shared.scss */
 .mydropdown a, .mydropdown .dropdown-divider {
   display: block;
   -moz-transform: scale(0.5);
@@ -197,17 +196,17 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   transition: transform 0.2s;
   will-change: transform;
 }
-/* line 153, ../sass/partials/_shared.scss */
+/* line 152, ../sass/partials/_shared.scss */
 .mydropdown .dropdown-divider:last-child {
   display: none;
 }
-/* line 157, ../sass/partials/_shared.scss */
+/* line 156, ../sass/partials/_shared.scss */
 .mydropdown a:active {
   background: #f8f9fa;
   color: #16181b;
 }
 
-/* line 163, ../sass/partials/_shared.scss */
+/* line 162, ../sass/partials/_shared.scss */
 .layer {
   background-color: rgba(255, 255, 255, 0.6);
   -moz-transition: all 0.5s ease-out;
@@ -215,7 +214,7 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 167, ../sass/partials/_shared.scss */
+/* line 166, ../sass/partials/_shared.scss */
 .layer h2, .layer a {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -223,13 +222,13 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   transition: all 0.3s;
   color: #343534;
 }
-/* line 172, ../sass/partials/_shared.scss */
+/* line 171, ../sass/partials/_shared.scss */
 .layer span {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
 }
 
-/* line 178, ../sass/partials/_shared.scss */
+/* line 177, ../sass/partials/_shared.scss */
 .call-us {
   position: absolute;
   left: 0;
@@ -240,7 +239,7 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   white-space: nowrap;
 }
 @media screen and (max-width: 767px) {
-  /* line 178, ../sass/partials/_shared.scss */
+  /* line 177, ../sass/partials/_shared.scss */
   .call-us {
     left: 50%;
     -moz-transform: translate(-50%);
@@ -249,36 +248,36 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
     transform: translate(-50%);
   }
 }
-/* line 192, ../sass/partials/_shared.scss */
+/* line 191, ../sass/partials/_shared.scss */
 .call-us p {
   font-weight: 300;
 }
-/* line 195, ../sass/partials/_shared.scss */
+/* line 194, ../sass/partials/_shared.scss */
 .call-us p span {
   font-weight: bold;
   font-size: 30px;
 }
 
-/* line 205, ../sass/partials/_shared.scss */
+/* line 204, ../sass/partials/_shared.scss */
 .content h1, .content h2 {
   font-weight: bold;
   font-size: 36px;
 }
-/* line 210, ../sass/partials/_shared.scss */
+/* line 209, ../sass/partials/_shared.scss */
 .content hr {
   background-color: #ff9900;
   border: none;
   height: 2px;
   width: 40px;
 }
-/* line 217, ../sass/partials/_shared.scss */
+/* line 216, ../sass/partials/_shared.scss */
 .content p {
   font-family: 'Roboto', sans-serif;
   color: #222;
   font-weight: 300;
 }
 
-/* line 225, ../sass/partials/_shared.scss */
+/* line 224, ../sass/partials/_shared.scss */
 .fromLeft {
   left: -50px;
   opacity: 0;
@@ -288,7 +287,7 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   transition: all 0.5s;
 }
 
-/* line 231, ../sass/partials/_shared.scss */
+/* line 230, ../sass/partials/_shared.scss */
 .fromRight {
   right: -50px;
   opacity: 0;
@@ -298,41 +297,41 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   transition: all 0.5s;
 }
 
-/* line 237, ../sass/partials/_shared.scss */
+/* line 236, ../sass/partials/_shared.scss */
 .overflow-hidden {
   overflow: hidden;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  /* line 242, ../sass/partials/_shared.scss */
+  /* line 241, ../sass/partials/_shared.scss */
   .mynavbar {
     height: 80px;
   }
 }
-/* line 247, ../sass/partials/_shared.scss */
+/* line 246, ../sass/partials/_shared.scss */
 .overflow-x-hidden {
   overflow-x: hidden;
 }
 
-/* line 251, ../sass/partials/_shared.scss */
+/* line 250, ../sass/partials/_shared.scss */
 .title-padding {
   padding: 0 calc(2rem + 15px);
 }
 
 @media only screen and (max-width: 576px) {
-  /* line 255, ../sass/partials/_shared.scss */
+  /* line 254, ../sass/partials/_shared.scss */
   h1.mobile-heading,
   h2.mobile-heading {
     font-size: 1.7rem;
   }
 }
 
-/* line 262, ../sass/partials/_shared.scss */
+/* line 261, ../sass/partials/_shared.scss */
 .z-index-1 {
   z-index: 1;
 }
 
-/* line 266, ../sass/partials/_shared.scss */
+/* line 265, ../sass/partials/_shared.scss */
 .new-date {
   color: #1f1812;
   font-family: 'Roboto', sans-serif;
