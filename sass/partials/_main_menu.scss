@@ -94,6 +94,10 @@
 				    @include transform(translateY(-50%));
 				    z-index: 1;
 				    @include transition(all .3s);
+
+				    @media only screen and (max-width:767px) {
+				    	display: none;
+				    } 
 				}
 
 				span {
@@ -104,6 +108,10 @@
 					color: $white;
 					position: relative;
 					z-index: 1;
+
+					@media only screen and (max-width:767px) {
+						color: $black;
+					}
 				}
 
 				&:hover:before {

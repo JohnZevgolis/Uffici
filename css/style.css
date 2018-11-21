@@ -1039,24 +1039,36 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 99, ../sass/partials/_main_menu.scss */
+@media only screen and (max-width: 767px) {
+  /* line 86, ../sass/partials/_main_menu.scss */
+  .main-menu .navbar-nav .nav-item .nav-link:before {
+    display: none;
+  }
+}
+/* line 103, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .nav-item .nav-link span {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 103, ../sass/partials/_main_menu.scss */
+/* line 107, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .nav-item .nav-link:hover span {
   color: #ffffff;
   position: relative;
   z-index: 1;
 }
-/* line 109, ../sass/partials/_main_menu.scss */
+@media only screen and (max-width: 767px) {
+  /* line 107, ../sass/partials/_main_menu.scss */
+  .main-menu .navbar-nav .nav-item .nav-link:hover span {
+    color: #000000;
+  }
+}
+/* line 117, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .nav-item .nav-link:hover:before {
   width: 90%;
 }
-/* line 115, ../sass/partials/_main_menu.scss */
+/* line 123, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .secondary-menu {
   position: absolute;
   left: 100%;
@@ -1071,49 +1083,49 @@ header .mynavbar .navbar-brand img {
   overflow-x: hidden;
   width: 0;
 }
-/* line 126, ../sass/partials/_main_menu.scss */
+/* line 134, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .secondary-menu .nav-item {
   line-height: 2.5;
 }
-/* line 130, ../sass/partials/_main_menu.scss */
+/* line 138, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .secondary-menu .nav-link {
   font-size: 21px;
 }
-/* line 134, ../sass/partials/_main_menu.scss */
+/* line 142, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .secondary-menu .nav-link:hover:before {
   width: 95%;
 }
-/* line 141, ../sass/partials/_main_menu.scss */
+/* line 149, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav > .nav-item:hover .secondary-menu {
   top: 0;
 }
-/* line 147, ../sass/partials/_main_menu.scss */
+/* line 155, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav.main-menu-mobile {
   border-top: 1px solid #000000;
 }
-/* line 153, ../sass/partials/_main_menu.scss */
+/* line 161, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav.main-menu-mobile .nav-item .nav-link {
   font-size: 24px;
 }
 @media only screen and (max-width: 576px) {
-  /* line 153, ../sass/partials/_main_menu.scss */
+  /* line 161, ../sass/partials/_main_menu.scss */
   .main-menu .navbar-nav.main-menu-mobile .nav-item .nav-link {
     font-size: 22px;
   }
 }
-/* line 161, ../sass/partials/_main_menu.scss */
+/* line 169, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav.main-menu-mobile .nav-item .nav-link:hover {
   background: #ffffff;
 }
-/* line 165, ../sass/partials/_main_menu.scss */
+/* line 173, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav.main-menu-mobile .nav-item .nav-link:hover span {
   color: #000000;
 }
-/* line 169, ../sass/partials/_main_menu.scss */
+/* line 177, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav.main-menu-mobile .nav-item .nav-link:hover:before {
   display: none;
 }
-/* line 179, ../sass/partials/_main_menu.scss */
+/* line 187, ../sass/partials/_main_menu.scss */
 .main-menu .social-media .nav-item {
   -moz-transition: left 0.3s, opacity 0.3s;
   -o-transition: left 0.3s, opacity 0.3s;
@@ -1122,7 +1134,7 @@ header .mynavbar .navbar-brand img {
   left: 10px;
   opacity: 0;
 }
-/* line 184, ../sass/partials/_main_menu.scss */
+/* line 192, ../sass/partials/_main_menu.scss */
 .main-menu .social-media a {
   border: 1px solid #000000;
   border-radius: 100%;
@@ -1135,29 +1147,29 @@ header .mynavbar .navbar-brand img {
   transition: all 0.3s;
 }
 @media only screen and (max-width: 576px) {
-  /* line 184, ../sass/partials/_main_menu.scss */
+  /* line 192, ../sass/partials/_main_menu.scss */
   .main-menu .social-media a {
     height: 35px;
     width: 35px;
   }
 }
-/* line 197, ../sass/partials/_main_menu.scss */
+/* line 205, ../sass/partials/_main_menu.scss */
 .main-menu .social-media a:hover {
   background-color: #000000;
   color: #ffffff;
 }
-/* line 202, ../sass/partials/_main_menu.scss */
+/* line 210, ../sass/partials/_main_menu.scss */
 .main-menu .social-media a i {
   font-size: 25px;
 }
 @media only screen and (max-width: 576px) {
-  /* line 202, ../sass/partials/_main_menu.scss */
+  /* line 210, ../sass/partials/_main_menu.scss */
   .main-menu .social-media a i {
     font-size: 22px;
   }
 }
 
-/* line 214, ../sass/partials/_main_menu.scss */
+/* line 222, ../sass/partials/_main_menu.scss */
 .move-top-bar {
   -moz-transform: rotate(45deg) translateX(0) !important;
   -ms-transform: rotate(45deg) translateX(0) !important;
@@ -1165,7 +1177,7 @@ header .mynavbar .navbar-brand img {
   transform: rotate(45deg) translateX(0) !important;
 }
 
-/* line 218, ../sass/partials/_main_menu.scss */
+/* line 226, ../sass/partials/_main_menu.scss */
 .move-bottom-bar {
   -moz-transform: rotate(-45deg) translateX(0) !important;
   -ms-transform: rotate(-45deg) translateX(0) !important;
@@ -1173,12 +1185,12 @@ header .mynavbar .navbar-brand img {
   transform: rotate(-45deg) translateX(0) !important;
 }
 
-/* line 222, ../sass/partials/_main_menu.scss */
+/* line 230, ../sass/partials/_main_menu.scss */
 .main-menu-padding {
   padding: 0 0 0 calc(1.75rem - 6px + 15px);
 }
 @media only screen and (max-width: 767px) {
-  /* line 222, ../sass/partials/_main_menu.scss */
+  /* line 230, ../sass/partials/_main_menu.scss */
   .main-menu-padding {
     padding: 0 15px;
   }
