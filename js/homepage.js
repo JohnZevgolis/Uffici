@@ -14,6 +14,7 @@ $(function() {
 
 	$(window).resize(function() {
 		carousel();
+		backgroundParallax();
 	})
 })
 
