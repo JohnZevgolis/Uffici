@@ -24,57 +24,25 @@ function scrollDown() {
 }
 
 function carousel() {
+
 	if(width<767) {
+
 		$(".mycarousel").addClass("margin-top");
 
-		//Carousel Touch Slide
+		touchSlide();
 
-		$('#demo').carousel('pause');
+	} else {
 
-		$("#demo").on("touchstart", function (event) {
-		    var xClick = event.originalEvent.touches[0].pageX;
-		    $(this).one("touchmove", function (event) {
-		        var xMove = event.originalEvent.touches[0].pageX;
-		        if (Math.floor(xClick - xMove) > 5) {
-		            $(this).carousel('next');
-		        }
-		        else if (Math.floor(xClick - xMove) < -5) {
-		            $(this).carousel('prev');
-		        }
-		    });
-		    $("#demo").on("touchend", function () {
-		        $(this).off("touchmove");
-		    });
+		$(".mycarousel").removeClass("margin-top").removeAttr("style");
+
+		$('#demo').carousel({
+		    interval: 6000,
+		    pause: "false"
 		});
 
-		// Mouse swipe when mouse is dragged to left/right
-		var xClick;
-		var mouseDown;
+		$("#demo").unbind("touchstart, touchend, mousemove, mousemove, mouseup, mousedown");
 
-		$("#demo").on("mousedown", function (event) {
-		    xClick = event.pageX;
-		    mouseDown = true;
-		});
-
-		$("#demo").on("mousemove", function (event) {
-		    if (mouseDown) {
-		        var xMove = event.pageX;
-		        if (xClick > xMove) {
-		            $(this).carousel('next');
-		        }
-		        else if (xClick < xMove) {
-		            $(this).carousel('prev');
-		        }
-		    }
-		});
-
-		$("#demo").on("mouseup", function (event) {
-		    mouseDown = false;
-		});
-
-		} else {
-			$(".mycarousel").removeClass("margin-top").removeAttr("style");
-		}
+	}
 
 }
 
@@ -99,4 +67,52 @@ function textFadeOut() {
 	    .addTo(controller);
 
 	}) 
+}
+
+function touchSlide() {
+
+	$('#demo').carousel('pause');
+
+	$("#demo").on("touchstart", function (event) {
+	    var xClick = event.originalEvent.touches[0].pageX;
+	    $(this).one("touchmove", function (event) {
+	        var xMove = event.originalEvent.touches[0].pageX;
+	        if (Math.floor(xClick - xMove) > 5) {
+	            $(this).carousel('next');
+	        }
+	        else if (Math.floor(xClick - xMove) < -5) {
+	            $(this).carousel('prev');
+	        }
+	    });
+
+	    $("#demo").on("touchend", function () {
+	        $(this).off("touchmove");
+	    });
+	});
+
+	// Mouse swipe when mouse is dragged to left/right
+	var xClick;
+	var mouseDown;
+
+	$("#demo").on("mousedown", function (event) {
+	    xClick = event.pageX;
+	    mouseDown = true;
+	});
+
+	$("#demo").on("mousemove", function (event) {
+	    if (mouseDown) {
+	        var xMove = event.pageX;
+	        if (xClick > xMove) {
+	            $(this).carousel('next');
+	        }
+	        else if (xClick < xMove) {
+	            $(this).carousel('prev');
+	        }
+	    }
+	});
+
+	$("#demo").on("mouseup", function (event) {
+	    mouseDown = false;
+	});
+
 }
