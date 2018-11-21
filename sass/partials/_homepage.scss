@@ -14,10 +14,8 @@
         @media only screen and (max-width: 767px) {
             opacity: 1 !important;
             @include transform(translate3d(0,0,0) !important);
-        }
-
-        @media only screen and (max-width: 767px) {
             padding-bottom: 0;
+            cursor: grab;
         }
 
         @media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait) {
