@@ -1,8 +1,10 @@
-google.maps.event.addDomListener(window, 'load', init);
+if($("#map").length) {
+	google.maps.event.addDomListener(window, 'load', init);
+}
 
 function init() {
 
-    var contentString = '<span class="d-block py-3 px-2">Λεωφόρος Κύμης 10 και Σενέκα <br>Κηφισιά, Αττική Ελλάδα</span>';
+   var contentString = '<span class="d-block py-3 px-2">Λεωφόρος Κύμης 10 και Σενέκα <br>Κηφισιά, Αττική Ελλάδα</span>';
 
     var infowindow = new google.maps.InfoWindow
     ({

@@ -5,6 +5,7 @@ $(function() {
 	mainMenu();
 	modal();
     SetUpGridCols();
+    gift();
 
 	$(window).resize(function() {
 		footer();
@@ -201,4 +202,16 @@ function SetUpGridCols() {
         target: null,
         remove: false
     });
+}
+
+function gift() {
+    var controller = new ScrollMagic.Controller();
+
+    var scene = new ScrollMagic.Scene({
+      triggerElement: ".gift-image",
+      duration: "80%",
+      triggerHook: 1
+    })
+    .setTween(TweenMax.from(".gift-image",6,{y:"200px",ease:SlowMo.easeOut}))
+    .addTo(controller);
 }
