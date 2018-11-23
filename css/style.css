@@ -1504,7 +1504,7 @@ header .mynavbar .navbar-brand img {
   background: -o-linear-gradient(#000000, #000000);
   background: linear-gradient(#000000, #000000);
   background-size: 0 100%;
-  background-position: 0 100%;
+  background-position: 110% 100%;
   background-repeat: no-repeat;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
