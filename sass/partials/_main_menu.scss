@@ -82,8 +82,20 @@
 				left: 10px;
 				opacity: 0;
 				@include transition(all .3s);
+			    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+			    background: -webkit-linear-gradient(#000000, #000000);
+			    background: -o-linear-gradient(#000000, #000000);
+			    background: linear-gradient(#000000, #000000);
+			    background-size: 0 100%;
+			    background-position: 0 100%;
+			    background-repeat: no-repeat;
+			    display: inline;
 
-				&:before {
+			    &:hover {
+			    	background-size: 100% 100%;
+			    }
+
+				/*&:before {
 					content: "";
 					position: absolute;
 					background-color: $black;
@@ -98,7 +110,7 @@
 				    @media only screen and (max-width:767px) {
 				    	display: none;
 				    } 
-				}
+				}*/
 
 				span {
 					@include transition(all .3s);
@@ -108,15 +120,11 @@
 					color: $white;
 					position: relative;
 					z-index: 1;
-
-					@media only screen and (max-width:767px) {
-						color: $black;
-					}
 				}
 
-				&:hover:before {
+				/*&:hover:before {
 					width: 90%;
-				}
+				}*/
 			}
 		}
 
