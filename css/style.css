@@ -1714,3 +1714,10 @@ header .mynavbar .navbar-brand img {
 .content.product-content.news .new a:after {
   height: 15px;
 }
+
+/* line 1, ../sass/partials/_menu_inside_page.scss */
+.content.product-content h4.menu-inside-title {
+  color: #000000;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 400;
+}
