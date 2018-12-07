@@ -64,12 +64,12 @@ function getScrollBarWidth() {
 
 function dropdown() {
 
-	$(".myitem").each(function() {
+	$(".mydropdown").each(function() {
 
 		var counter = 0;
 		var delay = 0;
 
-		$(this).find(".mydropdown a,.mydropdown .dropdown-divider").each(function() {
+		$(this).find("a,.dropdown-divider").each(function() {
 			if(counter == 0) {
 				delay = 0;
 			} else {
