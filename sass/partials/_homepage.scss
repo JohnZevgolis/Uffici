@@ -54,14 +54,10 @@
 
     h1 {
     	color: $white;
-    	font-size: 55px;
+    	font-size: 40px;
     	font-weight: 400;
     	top: 40px;
     	@include transition-delay(.6s);
-
-    	@media only screen and (max-width: 767px) {
-    		font-size: 40px;
-    	}
 
         @media only screen and (max-width: 576px) {
             font-size: 30px;
@@ -164,6 +160,7 @@
 
 	span {
 		color: $white;
+        font-size: 0.8rem;
 	}
 
 	img {
