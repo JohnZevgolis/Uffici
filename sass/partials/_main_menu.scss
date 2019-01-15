@@ -23,11 +23,7 @@
 	a {
 		color: $black;
 		text-transform: uppercase;
-		font-size: 32px;
-
-		@media only screen and (max-width: 576px) {
-			font-size: 26px;
-		}
+		font-size: 22px;
 	}
 
 	.close-btn {
@@ -133,11 +129,15 @@
 		    left: 100%;
 		    top: -100%;
 		    background-color: $white;
-		    min-width: 400px;
+		    min-width: 100%;
 			@include transition(all .3s);
 			z-index: -1;
 			overflow-x: hidden;
 			width: 0;
+
+			.navbar-nav {
+				padding-top: 2.2rem;
+			}
 
 			.nav-item {
 				line-height: 2.5;
@@ -145,7 +145,7 @@
 
 			.nav-link {
 
-				font-size: 21px;
+				font-size: 16px;
 
 				&:hover:before {
 					width: 95%;
@@ -168,11 +168,7 @@
 
 			.nav-link {
 
-				font-size: 24px;
-
-				@media only screen and (max-width: 576px) {
-					font-size: 22px;
-				}
+				font-size: 18px;
 
 				&:hover {
 					background: $white;
