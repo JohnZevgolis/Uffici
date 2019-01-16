@@ -6,6 +6,8 @@ $(function() {
 	modal();
     SetUpGridCols();
     gift();
+    scrollDown();
+    fadeEffect();
 
 	$(window).resize(function() {
 		footer();
@@ -24,6 +26,14 @@ $(function() {
 
 var width;
 var headerHeight;
+
+function scrollDown() {
+	if($(".scroll-down").length) {
+		$(".scroll-down").click(function() {
+			$("html,body").animate({scrollTop: $(this).parent().next("section").offset().top-headerHeight},500,"linear");
+		})
+	}
+}
 
 function footer() {
 	width=$(window).width()+getScrollBarWidth()
@@ -215,4 +225,12 @@ function gift() {
     })
     .setTween(TweenMax.from(".gift-image",6,{y:"200px",ease:SlowMo.easeOut}))
     .addTo(controller);
+}
+
+function fadeEffect() {
+	if($(".fade-effect").length) {
+		$(".fade-effect img,.fade-effect h2,.fade-effect p,.fade-effect .borders").waypoint(function() {
+			$(this.element).addClass("fire");
+		}, {offset: "65%"})
+	}	
 }

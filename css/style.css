@@ -339,6 +339,78 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   font-size: 14px;
 }
 
+/* line 273, ../sass/partials/_shared.scss */
+.fade-effect img {
+  opacity: 0;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+/* line 278, ../sass/partials/_shared.scss */
+.fade-effect .borders {
+  opacity: 0;
+}
+/* line 282, ../sass/partials/_shared.scss */
+.fade-effect h2, .fade-effect p {
+  opacity: 0;
+  -moz-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+  transform: translateY(30px);
+  -moz-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+/* line 289, ../sass/partials/_shared.scss */
+.fade-effect img.fire,
+.fade-effect .borders.fire {
+  opacity: 1;
+}
+
+/* line 294, ../sass/partials/_shared.scss */
+.fade-effect h2.fire,
+.fade-effect p.fire {
+  opacity: 1;
+  -moz-transform: none;
+  -ms-transform: none;
+  -webkit-transform: none;
+  transform: none;
+}
+
+/* line 300, ../sass/partials/_shared.scss */
+.title, .hero-banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+/* line 307, ../sass/partials/_shared.scss */
+.hero-banner {
+  min-height: 768px;
+}
+@media only screen and (max-width: 1200px) {
+  /* line 307, ../sass/partials/_shared.scss */
+  .hero-banner {
+    min-height: 600px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 307, ../sass/partials/_shared.scss */
+  .hero-banner {
+    min-height: 500px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  /* line 307, ../sass/partials/_shared.scss */
+  .hero-banner {
+    min-height: 400px;
+  }
+}
+
 /* line 1, ../sass/partials/_header.scss */
 header {
   background-color: #ffffff;
@@ -1175,41 +1247,44 @@ header .mynavbar .navbar-brand img {
   }
 }
 
-/* line 1, ../sass/partials/_product.scss */
-.title {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-}
-
-/* line 9, ../sass/partials/_product.scss */
+/* line 2, ../sass/partials/_product.scss */
 .content.product-content h1, .content.product-content h2, .content.product-content p, .content.product-content button, .content.product-content i, .content.product-content h5,
 .content.product-content .prev-product i {
   color: #343534;
 }
-/* line 14, ../sass/partials/_product.scss */
+/* line 7, ../sass/partials/_product.scss */
 .content.product-content h2 {
   font-weight: bold;
   font-size: 2rem;
 }
-/* line 19, ../sass/partials/_product.scss */
+/* line 11, ../sass/partials/_product.scss */
+.content.product-content h2.d-inline-block.z-index-1:after {
+  content: '';
+  position: absolute;
+  background: #feaf28;
+  width: 100%;
+  height: 14px;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+/* line 23, ../sass/partials/_product.scss */
 .content.product-content h4 {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #686e68;
   font-weight: 300;
 }
-/* line 26, ../sass/partials/_product.scss */
+/* line 30, ../sass/partials/_product.scss */
 .content.product-content h4.border-bottom {
   border-bottom: 1px solid #e3e3e5;
 }
-/* line 30, ../sass/partials/_product.scss */
+/* line 34, ../sass/partials/_product.scss */
 .content.product-content h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
-/* line 35, ../sass/partials/_product.scss */
+/* line 39, ../sass/partials/_product.scss */
 .content.product-content button.slideToggle {
   background: none;
   border: none;
@@ -1217,26 +1292,26 @@ header .mynavbar .navbar-brand img {
   cursor: pointer;
   border-bottom: 1px solid #e3e3e5;
 }
-/* line 42, ../sass/partials/_product.scss */
+/* line 46, ../sass/partials/_product.scss */
 .content.product-content button.slideToggle span {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
 }
-/* line 47, ../sass/partials/_product.scss */
+/* line 51, ../sass/partials/_product.scss */
 .content.product-content button.slideToggle div.d-inline-block {
   width: 11px;
   height: 11px;
   position: relative;
 }
-/* line 56, ../sass/partials/_product.scss */
+/* line 60, ../sass/partials/_product.scss */
 .content.product-content button.slideToggle i:last-child {
   display: none;
 }
-/* line 61, ../sass/partials/_product.scss */
+/* line 65, ../sass/partials/_product.scss */
 .content.product-content button.slideToggle:focus {
   outline: none;
 }
-/* line 68, ../sass/partials/_product.scss */
+/* line 72, ../sass/partials/_product.scss */
 .content.product-content .prev-product i, .content.product-content .prev-product hr {
   position: absolute;
   border: none;
@@ -1254,28 +1329,28 @@ header .mynavbar .navbar-brand img {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
-/* line 77, ../sass/partials/_product.scss */
+/* line 81, ../sass/partials/_product.scss */
 .content.product-content .prev-product hr {
   background-color: #343534;
   width: 20px;
   right: 0;
 }
-/* line 83, ../sass/partials/_product.scss */
+/* line 87, ../sass/partials/_product.scss */
 .content.product-content .prev-product:hover hr {
   width: 30px;
 }
-/* line 87, ../sass/partials/_product.scss */
+/* line 91, ../sass/partials/_product.scss */
 .content.product-content .prev-product:hover i {
   -moz-transform: translateX(-10px) translateY(-50%);
   -ms-transform: translateX(-10px) translateY(-50%);
   -webkit-transform: translateX(-10px) translateY(-50%);
   transform: translateX(-10px) translateY(-50%);
 }
-/* line 91, ../sass/partials/_product.scss */
+/* line 95, ../sass/partials/_product.scss */
 .content.product-content .prev-product .relative {
   width: 24px;
 }
-/* line 96, ../sass/partials/_product.scss */
+/* line 100, ../sass/partials/_product.scss */
 .content.product-content .borders {
   position: absolute;
   width: 140%;
@@ -1287,7 +1362,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 104, ../sass/partials/_product.scss */
+/* line 108, ../sass/partials/_product.scss */
 .content.product-content .borders > div {
   background-color: #ebebeb;
   -moz-transition: all 0.8s;
@@ -1295,7 +1370,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
-/* line 109, ../sass/partials/_product.scss */
+/* line 113, ../sass/partials/_product.scss */
 .content.product-content .borders .top-border {
   height: 1px;
   position: absolute;
@@ -1307,7 +1382,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
 }
-/* line 118, ../sass/partials/_product.scss */
+/* line 122, ../sass/partials/_product.scss */
 .content.product-content .borders .bottom-border {
   height: 1px;
   position: absolute;
@@ -1319,7 +1394,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
 }
-/* line 127, ../sass/partials/_product.scss */
+/* line 131, ../sass/partials/_product.scss */
 .content.product-content .borders .left-border {
   height: 100%;
   position: absolute;
@@ -1331,7 +1406,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
 }
-/* line 136, ../sass/partials/_product.scss */
+/* line 140, ../sass/partials/_product.scss */
 .content.product-content .borders .right-border {
   height: 100%;
   position: absolute;
@@ -1343,16 +1418,16 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
 }
-/* line 146, ../sass/partials/_product.scss */
+/* line 150, ../sass/partials/_product.scss */
 .content.product-content .borders.etaireia-borders {
   left: -150px;
   width: 120%;
 }
-/* line 151, ../sass/partials/_product.scss */
+/* line 155, ../sass/partials/_product.scss */
 .content.product-content .borders.etaireia-borders.left-borders {
   left: 0;
 }
-/* line 155, ../sass/partials/_product.scss */
+/* line 159, ../sass/partials/_product.scss */
 .content.product-content .piato:hover .borders .top-border,
 .content.product-content .piato:hover .borders .bottom-border {
   -moz-transform: scaleX(1);
@@ -1360,7 +1435,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-/* line 160, ../sass/partials/_product.scss */
+/* line 164, ../sass/partials/_product.scss */
 .content.product-content .piato:hover .borders .left-border,
 .content.product-content .piato:hover .borders .right-border {
   -moz-transform: scaleY(1);
@@ -1368,21 +1443,21 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
-/* line 165, ../sass/partials/_product.scss */
+/* line 169, ../sass/partials/_product.scss */
 .content.product-content .piato .overflow-hidden img {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 169, ../sass/partials/_product.scss */
+/* line 173, ../sass/partials/_product.scss */
 .content.product-content .piato:hover .overflow-hidden img {
   -moz-transform: scale(1.3);
   -ms-transform: scale(1.3);
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
-/* line 173, ../sass/partials/_product.scss */
+/* line 177, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn {
   color: #000000;
   font-weight: bold;
@@ -1390,7 +1465,7 @@ header .mynavbar .navbar-brand img {
   text-transform: uppercase;
   font-size: 14px;
 }
-/* line 180, ../sass/partials/_product.scss */
+/* line 184, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn:after {
   content: '';
   position: absolute;
@@ -1404,12 +1479,6 @@ header .mynavbar .navbar-brand img {
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-}
-@media only screen and (max-width: 576px) {
-  /* line 180, ../sass/partials/_product.scss */
-  .content.product-content .etaireia-btn:after {
-    height: 15px;
-  }
 }
 /* line 196, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn:hover:after {

@@ -268,3 +268,54 @@ h2.mobile-heading {
 	font-weight: 300;
 	font-size: 14px;
 }
+
+.fade-effect {
+	img {
+		opacity: 0;
+		@include transition(all 1s);
+	}
+
+	.borders {
+		opacity: 0;
+	}
+
+	h2,p {
+		opacity: 0;
+		@include transform(translateY(30px));
+		@include transition(all .6s);
+	}
+}
+
+.fade-effect img.fire,
+.fade-effect .borders.fire {
+	opacity: 1;
+}
+
+.fade-effect h2.fire,
+.fade-effect p.fire {
+	opacity: 1;
+	@include transform(none);
+}
+
+.title,.hero-banner {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+.hero-banner {
+	min-height: 768px;
+
+	@media only screen and (max-width: 1200px) {
+		min-height: 600px;
+	}
+
+	@media only screen and (max-width: 767px) {
+		min-height: 500px;
+	}
+
+	@media only screen and (max-width: 576px) {
+		min-height: 400px;
+	}
+}

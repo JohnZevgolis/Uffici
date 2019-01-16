@@ -7,7 +7,6 @@ $(function() {
 	    }
 	});
 
-	scrollDown();
 	carousel();
 	backgroundParallax();
 	textFadeOut();
@@ -17,12 +16,6 @@ $(function() {
 		backgroundParallax();
 	})
 })
-
-function scrollDown() {
-	$(".scroll-down").click(function() {
-		$("html,body").animate({scrollTop: $(".favorites").offset().top-headerHeight},500,"linear");
-	})
-}
 
 function carousel() {
 
