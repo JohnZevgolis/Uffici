@@ -156,6 +156,10 @@
 		left: 0;
 	}
 
+	.borders.etaireia-borders.activities-borders {
+		width: 95%;
+	}
+
 	.piato:hover .borders .top-border,
 	.piato:hover .borders .bottom-border {
 		@include transform(scaleX(1));

@@ -1428,6 +1428,10 @@ header .mynavbar .navbar-brand img {
   left: 0;
 }
 /* line 159, ../sass/partials/_product.scss */
+.content.product-content .borders.etaireia-borders.activities-borders {
+  width: 95%;
+}
+/* line 163, ../sass/partials/_product.scss */
 .content.product-content .piato:hover .borders .top-border,
 .content.product-content .piato:hover .borders .bottom-border {
   -moz-transform: scaleX(1);
@@ -1435,7 +1439,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-/* line 164, ../sass/partials/_product.scss */
+/* line 168, ../sass/partials/_product.scss */
 .content.product-content .piato:hover .borders .left-border,
 .content.product-content .piato:hover .borders .right-border {
   -moz-transform: scaleY(1);
@@ -1443,21 +1447,21 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
-/* line 169, ../sass/partials/_product.scss */
+/* line 173, ../sass/partials/_product.scss */
 .content.product-content .piato .overflow-hidden img {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 173, ../sass/partials/_product.scss */
+/* line 177, ../sass/partials/_product.scss */
 .content.product-content .piato:hover .overflow-hidden img {
   -moz-transform: scale(1.3);
   -ms-transform: scale(1.3);
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
-/* line 177, ../sass/partials/_product.scss */
+/* line 181, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn {
   color: #000000;
   font-weight: bold;
@@ -1465,7 +1469,7 @@ header .mynavbar .navbar-brand img {
   text-transform: uppercase;
   font-size: 14px;
 }
-/* line 184, ../sass/partials/_product.scss */
+/* line 188, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn:after {
   content: '';
   position: absolute;
@@ -1480,16 +1484,16 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-/* line 196, ../sass/partials/_product.scss */
+/* line 200, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn:hover:after {
   width: 0;
 }
 
-/* line 203, ../sass/partials/_product.scss */
+/* line 207, ../sass/partials/_product.scss */
 .product {
   overflow: hidden;
 }
-/* line 207, ../sass/partials/_product.scss */
+/* line 211, ../sass/partials/_product.scss */
 .product .layer {
   position: absolute;
   top: 0;
@@ -1502,32 +1506,32 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 216, ../sass/partials/_product.scss */
+/* line 220, ../sass/partials/_product.scss */
 .product .layer h2 {
   font-size: 18px;
   text-transform: uppercase;
 }
-/* line 222, ../sass/partials/_product.scss */
+/* line 226, ../sass/partials/_product.scss */
 .product img {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 226, ../sass/partials/_product.scss */
+/* line 230, ../sass/partials/_product.scss */
 .product:hover img {
   -moz-transform: scale(1.5);
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
-/* line 230, ../sass/partials/_product.scss */
+/* line 234, ../sass/partials/_product.scss */
 .product:hover .layer {
   height: 100%;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 236, ../sass/partials/_product.scss */
+  /* line 240, ../sass/partials/_product.scss */
   .content.product-content.more-about-us h2 {
     font-size: 2rem;
   }
