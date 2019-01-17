@@ -387,25 +387,31 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   background-position: center;
   position: relative;
 }
+@media only screen and (max-width: 420px) {
+  /* line 306, ../sass/partials/_shared.scss */
+  .title h1, .hero-banner h1 {
+    font-size: 2rem;
+  }
+}
 
-/* line 307, ../sass/partials/_shared.scss */
+/* line 313, ../sass/partials/_shared.scss */
 .hero-banner {
   min-height: 768px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 307, ../sass/partials/_shared.scss */
+  /* line 313, ../sass/partials/_shared.scss */
   .hero-banner {
     min-height: 600px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 307, ../sass/partials/_shared.scss */
+  /* line 313, ../sass/partials/_shared.scss */
   .hero-banner {
     min-height: 500px;
   }
 }
 @media only screen and (max-width: 576px) {
-  /* line 307, ../sass/partials/_shared.scss */
+  /* line 313, ../sass/partials/_shared.scss */
   .hero-banner {
     min-height: 400px;
   }
