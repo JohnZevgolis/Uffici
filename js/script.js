@@ -102,7 +102,6 @@ function dropdown() {
     });
 
 	$(".relative.dropdown-btn > a").click(function(e) {
-		console.log("hi");
 		e.preventDefault();
 		e.stopPropagation();
 		$(".mydropdown").addClass("scale-dropdown");

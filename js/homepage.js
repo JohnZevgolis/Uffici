@@ -19,6 +19,18 @@ $(function() {
 
 function carousel() {
 
+	$(".myitem .relative.dropdown-btn > a").click(function() {
+		if($(this).next(".dropdown-menu").hasClass("scale-dropdown")) {
+			$('#demo').carousel('pause');
+		}
+	})
+
+	$('body').click(function () {
+		if(!$(".myitem .dropdown-menu").hasClass("scale-dropdown")) {
+			$('#demo').carousel('cycle');
+		}
+	});
+
 	if(width<767) {
 
 		$(".mycarousel").addClass("margin-top");
