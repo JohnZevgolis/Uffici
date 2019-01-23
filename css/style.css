@@ -427,7 +427,7 @@ header .mynavbar {
 }
 /* line 8, ../sass/partials/_header.scss */
 header .mynavbar .nav-link {
-  font-size: 18px;
+  font-size: 14px;
   color: #1f1812;
   text-transform: uppercase;
   position: relative;
