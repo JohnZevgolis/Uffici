@@ -201,7 +201,7 @@ function modal() {
 }
 
 function marginTop() {
-	$(".margin-top").css("margin-top",headerHeight);
+	$(".margin-top").css("margin-top", headerHeight);
 }
 
 function SetUpGridCols() {
@@ -233,3 +233,7 @@ function fadeEffect() {
 		}, {offset: "65%"})
 	}	
 }
+
+$(window).on("load",function() {
+	marginTop();
+})
