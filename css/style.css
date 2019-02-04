@@ -1454,20 +1454,41 @@ header .mynavbar .navbar-brand img {
   transform: scaleY(1);
 }
 /* line 173, ../sass/partials/_product.scss */
-.content.product-content .piato .overflow-hidden img {
+.content.product-content .piato .overflow-hidden img:not(.position-absolute) {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 177, ../sass/partials/_product.scss */
-.content.product-content .piato:hover .overflow-hidden img {
+@media (max-width: 992px) {
+  /* line 173, ../sass/partials/_product.scss */
+  .content.product-content .piato .overflow-hidden img:not(.position-absolute) {
+    width: 100%;
+  }
+}
+/* line 183, ../sass/partials/_product.scss */
+.content.product-content .piato.special .overflow-hidden {
+  border: 15px solid #fb8520;
+  position: relative;
+}
+/* line 187, ../sass/partials/_product.scss */
+.content.product-content .piato.special .overflow-hidden .position-absolute {
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+/* line 194, ../sass/partials/_product.scss */
+.content.product-content .piato.special h2 {
+  color: #fb8520;
+}
+/* line 199, ../sass/partials/_product.scss */
+.content.product-content .piato:hover .overflow-hidden img:not(.position-absolute) {
   -moz-transform: scale(1.3);
   -ms-transform: scale(1.3);
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
-/* line 181, ../sass/partials/_product.scss */
+/* line 203, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn {
   color: #000000;
   font-weight: bold;
@@ -1475,7 +1496,7 @@ header .mynavbar .navbar-brand img {
   text-transform: uppercase;
   font-size: 14px;
 }
-/* line 188, ../sass/partials/_product.scss */
+/* line 210, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn:after {
   content: '';
   position: absolute;
@@ -1490,16 +1511,28 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-/* line 200, ../sass/partials/_product.scss */
+/* line 222, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn:hover:after {
   width: 0;
 }
+/* line 228, ../sass/partials/_product.scss */
+.content.product-content.etaireia-new p {
+  color: #222222;
+  line-height: 2;
+}
+/* line 233, ../sass/partials/_product.scss */
+.content.product-content.etaireia-new .borders {
+  top: 40%;
+  width: 120%;
+  height: 120%;
+  left: -80px;
+}
 
-/* line 207, ../sass/partials/_product.scss */
+/* line 243, ../sass/partials/_product.scss */
 .product {
   overflow: hidden;
 }
-/* line 211, ../sass/partials/_product.scss */
+/* line 247, ../sass/partials/_product.scss */
 .product .layer {
   position: absolute;
   top: 0;
@@ -1512,32 +1545,32 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 220, ../sass/partials/_product.scss */
+/* line 256, ../sass/partials/_product.scss */
 .product .layer h2 {
   font-size: 18px;
   text-transform: uppercase;
 }
-/* line 226, ../sass/partials/_product.scss */
+/* line 262, ../sass/partials/_product.scss */
 .product img {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 230, ../sass/partials/_product.scss */
+/* line 266, ../sass/partials/_product.scss */
 .product:hover img {
   -moz-transform: scale(1.5);
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
-/* line 234, ../sass/partials/_product.scss */
+/* line 270, ../sass/partials/_product.scss */
 .product:hover .layer {
   height: 100%;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 240, ../sass/partials/_product.scss */
+  /* line 276, ../sass/partials/_product.scss */
   .content.product-content.more-about-us h2 {
     font-size: 2rem;
   }
@@ -1765,15 +1798,131 @@ header .mynavbar .navbar-brand img {
 }
 /* line 28, ../sass/partials/_news.scss */
 .content.product-content.news .new a {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 /* line 31, ../sass/partials/_news.scss */
 .content.product-content.news .new a:after {
   height: 15px;
+}
+/* line 39, ../sass/partials/_news.scss */
+.content.product-content.news.news_inside .new-date {
+  font-size: 1.5rem;
+}
+@media (max-width: 1200px) {
+  /* line 39, ../sass/partials/_news.scss */
+  .content.product-content.news.news_inside .new-date {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 768px) {
+  /* line 39, ../sass/partials/_news.scss */
+  .content.product-content.news.news_inside .new-date {
+    font-size: 1.1rem;
+  }
+}
+/* line 51, ../sass/partials/_news.scss */
+.content.product-content.news.news_inside h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+@media (max-width: 1200px) {
+  /* line 51, ../sass/partials/_news.scss */
+  .content.product-content.news.news_inside h2 {
+    font-size: 2.6rem;
+  }
+}
+@media (max-width: 768px) {
+  /* line 51, ../sass/partials/_news.scss */
+  .content.product-content.news.news_inside h2 {
+    font-size: 2rem;
+  }
+}
+/* line 66, ../sass/partials/_news.scss */
+.content.product-content.news.news_inside p {
+  font-size: 1.5625rem;
+  margin-bottom: 3rem;
+}
+@media (max-width: 1200px) {
+  /* line 66, ../sass/partials/_news.scss */
+  .content.product-content.news.news_inside p {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 992px) {
+  /* line 66, ../sass/partials/_news.scss */
+  .content.product-content.news.news_inside p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  /* line 66, ../sass/partials/_news.scss */
+  .content.product-content.news.news_inside p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+}
+/* line 85, ../sass/partials/_news.scss */
+.content.product-content.news.news_inside p:first-child {
+  font-weight: bold;
 }
 
 /* line 1, ../sass/partials/_menu_inside_page.scss */
 .content.product-content h4.menu-inside-title {
   color: #000000;
   font-weight: 400;
+}
+
+/* line 2, ../sass/partials/_plain.scss */
+.plain h3 {
+  font-size: 1.5rem;
+}
+/* line 6, ../sass/partials/_plain.scss */
+.plain button {
+  background: none;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-top: 1px solid #fdab22;
+  border-bottom: 1px solid #fdab22;
+}
+/* line 15, ../sass/partials/_plain.scss */
+.plain button:focus {
+  outline: none;
+}
+/* line 19, ../sass/partials/_plain.scss */
+.plain button span {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 25, ../sass/partials/_plain.scss */
+.plain button i {
+  color: #222222;
+  font-size: 0.8125rem;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 32, ../sass/partials/_plain.scss */
+.plain p, .plain .nav-item {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 2.8;
+}
+/* line 39, ../sass/partials/_plain.scss */
+.plain .plain-text p {
+  line-height: 2;
+}
+
+/* line 44, ../sass/partials/_plain.scss */
+.rotate180 {
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }

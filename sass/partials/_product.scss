@@ -170,11 +170,33 @@
 		@include transform(scaleY(1));
 	}
 
-	.piato .overflow-hidden img {
+	.piato .overflow-hidden img:not(.position-absolute) {
 		@include transition(all .5s);
+
+		@media (max-width: 992px) {
+			width: 100%;
+		}
 	}
 
-	.piato:hover .overflow-hidden img {
+	.piato.special {
+
+		.overflow-hidden {
+			border: 15px solid $specialPlate;
+			position: relative;
+
+			.position-absolute {
+				top: 0;
+				left: 0;
+				z-index: 10;
+			}
+		}
+		
+		h2 {
+			color: $specialPlate;
+		}
+	}
+
+	.piato:hover .overflow-hidden img:not(.position-absolute) {
 		@include transform(scale(1.3));
 	}
 
@@ -199,6 +221,20 @@
 
 		&:hover:after {
 			width: 0;
+		}
+	}
+
+	&.etaireia-new {
+		p {
+			color: $etaireiaNewText;
+			line-height: 2;
+		}
+
+		.borders {
+			top: 40%;
+			width: 120%;
+			height: 120%;
+			left: -80px;
 		}
 	}
 

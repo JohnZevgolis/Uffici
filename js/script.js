@@ -8,6 +8,7 @@ $(function() {
     gift();
     scrollDown();
     fadeEffect();
+    plainBtn();
 
 	$(window).resize(function() {
 		footer();
@@ -232,6 +233,12 @@ function fadeEffect() {
 			$(this.element).addClass("fire");
 		}, {offset: "65%"})
 	}	
+}
+
+function plainBtn() {
+	$(".plain button").click(function() {
+		$(this).find("i").toggleClass("rotate180");
+	})
 }
 
 $(window).on("load",function() {
