@@ -1902,24 +1902,26 @@ header .mynavbar .navbar-brand img {
 .plain button i {
   color: #222222;
   font-size: 0.8125rem;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 32, ../sass/partials/_plain.scss */
+/* line 34, ../sass/partials/_plain.scss */
 .plain p, .plain .nav-item {
   color: #000000;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 2.8;
 }
-/* line 39, ../sass/partials/_plain.scss */
+/* line 41, ../sass/partials/_plain.scss */
 .plain .plain-text p {
   line-height: 2;
 }
 
-/* line 44, ../sass/partials/_plain.scss */
+/* line 46, ../sass/partials/_plain.scss */
 .rotate180 {
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);

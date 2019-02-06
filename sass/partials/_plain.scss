@@ -25,6 +25,8 @@
 		i {
 			color: $etaireiaNewText;
 			font-size: 0.8125rem;
+			backface-visibility: hidden;
+			-webkit-backface-visibility: hidden;
 			@include transition(all .3s);
 		}
 	}
