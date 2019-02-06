@@ -284,6 +284,7 @@ function moveToSection(header) {
 			
 		$("html,body").animate({scrollTop:$("section[data-section='"+section+"']").offset().top - header}, 800, function() {
 			$("section[data-section='"+section+"']").find(".collapse").slideDown(400);
+			$("section[data-section='"+section+"']").find("button i").addClass("rotate180");
 		});
 	} 
 }
