@@ -251,7 +251,6 @@ function ufficiCuisine() {
 		e.preventDefault();
 
 		var ajaxUrl = $(this).attr("href");
-		var sectionId = $(this).attr("data-section");
 		var header;
 
 		if(!$(this).parent("header").siblings(".z-index.relative").hasClass("margin-top")) {
@@ -265,7 +264,7 @@ function ufficiCuisine() {
             url: ajaxUrl, 
             success: function () {
 
-		        window.location.href = ajaxUrl+"#section="+sectionId;
+		        window.location.href = ajaxUrl;
 
 		        moveToSection(header);
 
@@ -280,11 +279,12 @@ function ufficiCuisine() {
 
 function moveToSection(header) {
 	if(window.location.hash.length) {
-		var section = location.hash.slice(1).split("=")[1];
+
+		var section = location.hash.slice(1);
 			
-		$("html,body").animate({scrollTop:$("section[data-section='"+section+"']").offset().top - header}, 800, function() {
-			$("section[data-section='"+section+"']").find(".collapse").slideDown(400);
-			$("section[data-section='"+section+"']").find("button i").addClass("rotate180");
+		$("html,body").animate({scrollTop:$("section[id='"+section+"']").offset().top - header}, 800, function() {
+			$("section[id='"+section+"']").find(".collapse").slideDown(400);
+			$("section[id='"+section+"']").find("button i").addClass("rotate180");
 		});
 	} 
 }

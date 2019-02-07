@@ -1910,18 +1910,23 @@ header .mynavbar .navbar-brand img {
   transition: all 0.3s;
 }
 /* line 34, ../sass/partials/_plain.scss */
-.plain p, .plain .nav-item {
+.plain ul {
+  list-style: none;
+  padding: 0;
+}
+/* line 39, ../sass/partials/_plain.scss */
+.plain p, .plain li {
   color: #000000;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 2.8;
 }
-/* line 41, ../sass/partials/_plain.scss */
+/* line 46, ../sass/partials/_plain.scss */
 .plain .plain-text p {
   line-height: 2;
 }
 
-/* line 46, ../sass/partials/_plain.scss */
+/* line 51, ../sass/partials/_plain.scss */
 .rotate180 {
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);

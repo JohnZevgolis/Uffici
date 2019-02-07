@@ -31,7 +31,12 @@
 		}
 	}
 
-	p,.nav-item {
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	p,li {
 		color: $black;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
