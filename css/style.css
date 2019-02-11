@@ -1558,19 +1558,54 @@ header .mynavbar .navbar-brand img {
   transition: all 0.5s;
 }
 /* line 266, ../sass/partials/_product.scss */
-.product:hover img {
+.product:hover img, .product:hover .product-bg {
   -moz-transform: scale(1.5);
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
-/* line 270, ../sass/partials/_product.scss */
+/* line 271, ../sass/partials/_product.scss */
 .product:hover .layer {
   height: 100%;
 }
+/* line 275, ../sass/partials/_product.scss */
+.product .product-bg {
+  min-height: 340px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 1200px) {
+  /* line 275, ../sass/partials/_product.scss */
+  .product .product-bg {
+    min-height: 300px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  /* line 275, ../sass/partials/_product.scss */
+  .product .product-bg {
+    min-height: 340px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 275, ../sass/partials/_product.scss */
+  .product .product-bg {
+    min-height: 400px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  /* line 275, ../sass/partials/_product.scss */
+  .product .product-bg {
+    min-height: 300px;
+  }
+}
 
 @media only screen and (max-width: 767px) {
-  /* line 276, ../sass/partials/_product.scss */
+  /* line 302, ../sass/partials/_product.scss */
   .content.product-content.more-about-us h2 {
     font-size: 2rem;
   }

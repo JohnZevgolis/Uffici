@@ -263,12 +263,38 @@
 		@include transition(all .5s);
 	}
 
-	&:hover img {
+	&:hover img,
+	&:hover .product-bg {
 		@include transform(scale(1.5));
 	}
 
 	&:hover .layer {
 		height: 100%;
+	}
+
+	.product-bg {
+		min-height: 340px;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		@include transition(all .5s);
+
+		@media only screen and (max-width:1200px) {
+			min-height: 300px;
+		}
+
+		@media only screen and (max-width:991px) {
+			min-height: 340px;
+		}
+
+		@media only screen and (max-width:767px) {
+			min-height: 400px;
+		}
+
+		@media only screen and (max-width:576px) {
+			min-height: 300px;
+		}
+
 	}
 }
 
