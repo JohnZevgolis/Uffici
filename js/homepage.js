@@ -37,6 +37,8 @@ function carousel() {
 
 		touchSlide();
 
+		marginTop();
+
 	} else {
 
 		$(".mycarousel").removeClass("margin-top").removeAttr("style");

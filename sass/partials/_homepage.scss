@@ -29,23 +29,11 @@
             align-items: center!important;
         }
 
-        @media only screen and (max-device-width:854px) and (max-device-height : 480px) and (orientation : landscape) {
+        @media only screen and (device-width:823px) and (device-height : 411px) and (orientation : landscape) {
             min-height: 160vh;
         }
 
-        @media only screen and (max-device-width:533px) and (max-device-height : 320px) and (orientation : landscape) {
-            min-height: 160vh;
-        }
-
-        @media only screen and (max-device-width:480px) and (max-device-height : 320px) and (orientation : landscape) {
-            min-height: 160vh;
-        }
-
-        @media only screen and (max-device-width:320px) and (max-device-height : 568px) and (orientation : portrait) {
-            min-height: 160vh;
-        }
-
-        @media only screen and (max-device-width:320px) and (max-device-height : 480px) and (orientation : portrait) {
+        @media only screen and (device-width:812px) and (device-height : 375px) and (orientation : landscape) {
             min-height: 160vh;
         }
 
