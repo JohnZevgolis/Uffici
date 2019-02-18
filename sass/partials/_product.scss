@@ -1,6 +1,6 @@
 .content.product-content {
 	h1,h2,p,button,i,h5,
-	.prev-product i {
+	.prev-product i,li {
 		color: $darkBrown;
 	}
 
@@ -236,6 +236,11 @@
 			height: 120%;
 			left: -80px;
 		}
+	}
+
+	&.fade-effect .col-md-10:not(.col-lg-12) p {
+		color: $etaireiaNewText;
+		line-height: 2;
 	}
 
 }

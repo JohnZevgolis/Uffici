@@ -271,7 +271,7 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   width: 40px;
 }
 /* line 216, ../sass/partials/_shared.scss */
-.content p {
+.content p, .content li {
   font-family: 'Roboto', sans-serif;
   color: #222;
   font-weight: 300;
@@ -352,7 +352,7 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   opacity: 0;
 }
 /* line 282, ../sass/partials/_shared.scss */
-.fade-effect h2, .fade-effect p {
+.fade-effect h2, .fade-effect p, .fade-effect ul {
   opacity: 0;
   -moz-transform: translateY(30px);
   -ms-transform: translateY(30px);
@@ -372,7 +372,8 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
 
 /* line 294, ../sass/partials/_shared.scss */
 .fade-effect h2.fire,
-.fade-effect p.fire {
+.fade-effect p.fire,
+.fade-effect ul.fire {
   opacity: 1;
   -moz-transform: none;
   -ms-transform: none;
@@ -380,7 +381,7 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   transform: none;
 }
 
-/* line 300, ../sass/partials/_shared.scss */
+/* line 301, ../sass/partials/_shared.scss */
 .title, .hero-banner {
   background-size: cover;
   background-repeat: no-repeat;
@@ -388,30 +389,30 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   position: relative;
 }
 @media only screen and (max-width: 420px) {
-  /* line 306, ../sass/partials/_shared.scss */
+  /* line 307, ../sass/partials/_shared.scss */
   .title h1, .hero-banner h1 {
     font-size: 2rem;
   }
 }
 
-/* line 313, ../sass/partials/_shared.scss */
+/* line 314, ../sass/partials/_shared.scss */
 .hero-banner {
   min-height: 768px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 313, ../sass/partials/_shared.scss */
+  /* line 314, ../sass/partials/_shared.scss */
   .hero-banner {
     min-height: 600px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 313, ../sass/partials/_shared.scss */
+  /* line 314, ../sass/partials/_shared.scss */
   .hero-banner {
     min-height: 500px;
   }
 }
 @media only screen and (max-width: 576px) {
-  /* line 313, ../sass/partials/_shared.scss */
+  /* line 314, ../sass/partials/_shared.scss */
   .hero-banner {
     min-height: 400px;
   }
@@ -1267,7 +1268,7 @@ header .mynavbar .navbar-brand img {
 
 /* line 2, ../sass/partials/_product.scss */
 .content.product-content h1, .content.product-content h2, .content.product-content p, .content.product-content button, .content.product-content i, .content.product-content h5,
-.content.product-content .prev-product i {
+.content.product-content .prev-product i, .content.product-content li {
   color: #343534;
 }
 /* line 7, ../sass/partials/_product.scss */
@@ -1539,12 +1540,17 @@ header .mynavbar .navbar-brand img {
   height: 120%;
   left: -80px;
 }
+/* line 241, ../sass/partials/_product.scss */
+.content.product-content.fade-effect .col-md-10:not(.col-lg-12) p {
+  color: #222222;
+  line-height: 2;
+}
 
-/* line 243, ../sass/partials/_product.scss */
+/* line 248, ../sass/partials/_product.scss */
 .product {
   overflow: hidden;
 }
-/* line 247, ../sass/partials/_product.scss */
+/* line 252, ../sass/partials/_product.scss */
 .product .layer {
   position: absolute;
   top: 0;
@@ -1557,30 +1563,30 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 256, ../sass/partials/_product.scss */
+/* line 261, ../sass/partials/_product.scss */
 .product .layer h2 {
   font-size: 18px;
   text-transform: uppercase;
 }
-/* line 262, ../sass/partials/_product.scss */
+/* line 267, ../sass/partials/_product.scss */
 .product img {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 266, ../sass/partials/_product.scss */
+/* line 271, ../sass/partials/_product.scss */
 .product:hover img, .product:hover .product-bg {
   -moz-transform: scale(1.5);
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
-/* line 271, ../sass/partials/_product.scss */
+/* line 276, ../sass/partials/_product.scss */
 .product:hover .layer {
   height: 100%;
 }
-/* line 275, ../sass/partials/_product.scss */
+/* line 280, ../sass/partials/_product.scss */
 .product .product-bg {
   min-height: 340px;
   background-size: cover;
@@ -1592,32 +1598,32 @@ header .mynavbar .navbar-brand img {
   transition: all 0.5s;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 275, ../sass/partials/_product.scss */
+  /* line 280, ../sass/partials/_product.scss */
   .product .product-bg {
     min-height: 300px;
   }
 }
 @media only screen and (max-width: 991px) {
-  /* line 275, ../sass/partials/_product.scss */
+  /* line 280, ../sass/partials/_product.scss */
   .product .product-bg {
     min-height: 340px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 275, ../sass/partials/_product.scss */
+  /* line 280, ../sass/partials/_product.scss */
   .product .product-bg {
     min-height: 400px;
   }
 }
 @media only screen and (max-width: 576px) {
-  /* line 275, ../sass/partials/_product.scss */
+  /* line 280, ../sass/partials/_product.scss */
   .product .product-bg {
     min-height: 300px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 302, ../sass/partials/_product.scss */
+  /* line 307, ../sass/partials/_product.scss */
   .content.product-content.more-about-us h2 {
     font-size: 2rem;
   }

@@ -234,7 +234,7 @@ function gift() {
 
 function fadeEffect() {
 	if($(".fade-effect").length) {
-		$(".fade-effect img,.fade-effect h2,.fade-effect p,.fade-effect .borders").waypoint(function() {
+		$(".fade-effect img,.fade-effect h2,.fade-effect p,.fade-effect .borders,.fade-effect ul").waypoint(function() {
 			$(this.element).addClass("fire");
 		}, {offset: "65%"})
 	}	

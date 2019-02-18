@@ -213,7 +213,7 @@ section {
 		width: 40px;
 	}
 
-	p {
+	p,li {
 		font-family: 'Roboto', sans-serif;
 		color: #222;
 		font-weight: 300;
@@ -279,7 +279,7 @@ h2.mobile-heading {
 		opacity: 0;
 	}
 
-	h2,p {
+	h2,p,ul {
 		opacity: 0;
 		@include transform(translateY(30px));
 		@include transition(all .6s);
@@ -292,7 +292,8 @@ h2.mobile-heading {
 }
 
 .fade-effect h2.fire,
-.fade-effect p.fire {
+.fade-effect p.fire,
+.fade-effect ul.fire {
 	opacity: 1;
 	@include transform(none);
 }
