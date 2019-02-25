@@ -196,7 +196,9 @@
 		}
 	}
 
-	.piato:hover .overflow-hidden img:not(.position-absolute) {
+	.piato:hover .overflow-hidden img:not(.position-absolute),
+	.piato:hover .piata-imeras-bg,
+	.piato:hover .product-bg {
 		@include transform(scale(1.3));
 	}
 
@@ -243,6 +245,22 @@
 		line-height: 2;
 	}
 
+	.piata-imeras-bg {
+		padding-bottom: 78%;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		@include transition(all .5s);
+	}
+
+	.product-bg {
+		padding-bottom: 100%;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		@include transition(all .5s);
+	}
+
 }
 
 .product {
@@ -278,28 +296,11 @@
 	}
 
 	.product-bg {
-		min-height: 340px;
+		padding-bottom: 100%;
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
 		@include transition(all .5s);
-
-		@media only screen and (max-width:1200px) {
-			min-height: 300px;
-		}
-
-		@media only screen and (max-width:991px) {
-			min-height: 340px;
-		}
-
-		@media only screen and (max-width:767px) {
-			min-height: 400px;
-		}
-
-		@media only screen and (max-width:576px) {
-			min-height: 300px;
-		}
-
 	}
 }
 

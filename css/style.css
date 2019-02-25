@@ -1495,13 +1495,15 @@ header .mynavbar .navbar-brand img {
   color: #fb8520;
 }
 /* line 199, ../sass/partials/_product.scss */
-.content.product-content .piato:hover .overflow-hidden img:not(.position-absolute) {
+.content.product-content .piato:hover .overflow-hidden img:not(.position-absolute),
+.content.product-content .piato:hover .piata-imeras-bg,
+.content.product-content .piato:hover .product-bg {
   -moz-transform: scale(1.3);
   -ms-transform: scale(1.3);
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
-/* line 203, ../sass/partials/_product.scss */
+/* line 205, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn {
   color: #000000;
   font-weight: bold;
@@ -1509,7 +1511,7 @@ header .mynavbar .navbar-brand img {
   text-transform: uppercase;
   font-size: 14px;
 }
-/* line 210, ../sass/partials/_product.scss */
+/* line 212, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn:after {
   content: '';
   position: absolute;
@@ -1524,33 +1526,55 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-/* line 222, ../sass/partials/_product.scss */
+/* line 224, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn:hover:after {
   width: 0;
 }
-/* line 228, ../sass/partials/_product.scss */
+/* line 230, ../sass/partials/_product.scss */
 .content.product-content.etaireia-new p {
   color: #222222;
   line-height: 2;
 }
-/* line 233, ../sass/partials/_product.scss */
+/* line 235, ../sass/partials/_product.scss */
 .content.product-content.etaireia-new .borders {
   top: 40%;
   width: 120%;
   height: 120%;
   left: -80px;
 }
-/* line 241, ../sass/partials/_product.scss */
+/* line 243, ../sass/partials/_product.scss */
 .content.product-content.fade-effect .col-md-10:not(.col-lg-12) p {
   color: #222222;
   line-height: 2;
 }
-
 /* line 248, ../sass/partials/_product.scss */
+.content.product-content .piata-imeras-bg {
+  padding-bottom: 78%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 256, ../sass/partials/_product.scss */
+.content.product-content .product-bg {
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 266, ../sass/partials/_product.scss */
 .product {
   overflow: hidden;
 }
-/* line 252, ../sass/partials/_product.scss */
+/* line 270, ../sass/partials/_product.scss */
 .product .layer {
   position: absolute;
   top: 0;
@@ -1563,32 +1587,32 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 261, ../sass/partials/_product.scss */
+/* line 279, ../sass/partials/_product.scss */
 .product .layer h2 {
   font-size: 18px;
   text-transform: uppercase;
 }
-/* line 267, ../sass/partials/_product.scss */
+/* line 285, ../sass/partials/_product.scss */
 .product img {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 271, ../sass/partials/_product.scss */
+/* line 289, ../sass/partials/_product.scss */
 .product:hover img, .product:hover .product-bg {
   -moz-transform: scale(1.5);
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
-/* line 276, ../sass/partials/_product.scss */
+/* line 294, ../sass/partials/_product.scss */
 .product:hover .layer {
   height: 100%;
 }
-/* line 280, ../sass/partials/_product.scss */
+/* line 298, ../sass/partials/_product.scss */
 .product .product-bg {
-  min-height: 340px;
+  padding-bottom: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1597,33 +1621,9 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-@media only screen and (max-width: 1200px) {
-  /* line 280, ../sass/partials/_product.scss */
-  .product .product-bg {
-    min-height: 300px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  /* line 280, ../sass/partials/_product.scss */
-  .product .product-bg {
-    min-height: 340px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  /* line 280, ../sass/partials/_product.scss */
-  .product .product-bg {
-    min-height: 400px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  /* line 280, ../sass/partials/_product.scss */
-  .product .product-bg {
-    min-height: 300px;
-  }
-}
 
 @media only screen and (max-width: 767px) {
-  /* line 307, ../sass/partials/_product.scss */
+  /* line 308, ../sass/partials/_product.scss */
   .content.product-content.more-about-us h2 {
     font-size: 2rem;
   }
