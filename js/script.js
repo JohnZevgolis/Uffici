@@ -196,6 +196,23 @@ function mainMenu() {
 			$(".main-menu .navbar-nav .nav-link,.main-menu .social-media .nav-item").removeClass("fadeInLeft");
 		});
 	})
+
+	// $(".main-menu .navbar-nav > .nav-item").each(function() {
+
+	// 	var item = $(this);
+
+	// 	if($(item).find('.secondary-menu').length !== 0) {
+	// 		$(item).mouseenter(function() {
+	// 			$(item).find(".secondary-menu").addClass("top-0");
+	// 		})
+
+	// 		$(item).mouseleave(function() {
+	// 			setTimeout(function() {
+	// 				$(item).find(".secondary-menu").removeClass("top-0");
+	// 			},500);
+	// 		})
+	// 	}
+	// });
 	
 }
 
@@ -254,7 +271,7 @@ function ufficiCuisine() {
 		var ajaxUrl = $(this).attr("href");
 		var header;
 
-		if(!$(this).parent("header").siblings(".z-index.relative").hasClass("margin-top")) {
+		if(!$(this).parent(".footer-height").siblings(".z-index.relative").hasClass("margin-top")) {
 			header = $("header").outerHeight();
 		} else {
 			header = "";
