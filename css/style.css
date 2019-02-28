@@ -1972,7 +1972,7 @@ header .mynavbar .navbar-brand img {
   padding: 0;
 }
 /* line 43, ../sass/partials/_plain.scss */
-.plain p, .plain ul.nav li.nav-item {
+.plain p, .plain li {
   color: #000000;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
