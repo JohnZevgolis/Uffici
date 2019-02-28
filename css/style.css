@@ -1963,23 +1963,27 @@ header .mynavbar .navbar-brand img {
   transition: all 0.3s;
 }
 /* line 34, ../sass/partials/_plain.scss */
-.plain ul {
+.plain a {
+  color: #ff9900;
+}
+/* line 38, ../sass/partials/_plain.scss */
+.plain ul.nav {
   list-style: none;
   padding: 0;
 }
-/* line 39, ../sass/partials/_plain.scss */
-.plain p, .plain li {
+/* line 43, ../sass/partials/_plain.scss */
+.plain p, .plain ul.nav li.nav-item {
   color: #000000;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 2.8;
 }
-/* line 46, ../sass/partials/_plain.scss */
+/* line 50, ../sass/partials/_plain.scss */
 .plain .plain-text p {
   line-height: 2;
 }
 
-/* line 51, ../sass/partials/_plain.scss */
+/* line 55, ../sass/partials/_plain.scss */
 .rotate180 {
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);

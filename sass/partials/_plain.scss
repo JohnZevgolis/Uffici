@@ -31,12 +31,16 @@
 		}
 	}
 
-	ul {
+	a {
+		color: $orange;
+	}
+
+	ul.nav {
 		list-style: none;
 		padding: 0;
 	}
 
-	p,li {
+	p,ul.nav li.nav-item {
 		color: $black;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
