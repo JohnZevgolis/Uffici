@@ -1967,7 +1967,7 @@ header .mynavbar .navbar-brand img {
   color: #ff9900;
 }
 /* line 38, ../sass/partials/_plain.scss */
-.plain ul.nav {
+.plain .py-5.text-left ul {
   list-style: none;
   padding: 0;
 }
