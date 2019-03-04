@@ -268,7 +268,7 @@ function ufficiCuisine() {
 	$(".uffici_cuisine_menu .nav-link").click(function(e) {
 		e.preventDefault();
 
-		var ajaxUrl = $(this).attr("href");
+		var url = $(this).attr("href");
 		var header;
 
 		if(!$(this).parent(".footer-height").siblings(".z-index.relative").hasClass("margin-top")) {
@@ -277,17 +277,9 @@ function ufficiCuisine() {
 			header = "";
 		}
 
-		$.ajax({
-            type: "GET", 
-            url: ajaxUrl, 
-            success: function () {
+        window.location.href = url;
 
-		        window.location.href = ajaxUrl;
-
-		        moveToSection(header);
-
-            }
-        });  
+        moveToSection(header);
 
     });
 
