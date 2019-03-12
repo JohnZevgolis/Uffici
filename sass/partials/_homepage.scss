@@ -47,6 +47,11 @@
         background-position: center !important;
     }
 
+    @supports (-ms-ime-align:auto) {
+        background-attachment: scroll;
+        background-position: center !important;
+    }
+
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
        background-attachment: scroll;
        background-position: center !important;
