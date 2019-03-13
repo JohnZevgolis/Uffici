@@ -326,3 +326,16 @@ h2.mobile-heading {
 		min-height: 400px;
 	}
 }
+
+.uffici-cookies {
+	background-color: $white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	border-top: 1px solid $darkBrown;
+
+	a.btn {
+		background-color: $orange;
+		color: $darkBrown;
+		font-size: 14px;
+	}
+}

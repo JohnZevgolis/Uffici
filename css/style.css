@@ -418,6 +418,20 @@ header .mynavbar .navbar-brand, .footer-height footer .umobit-logo img, .main-me
   }
 }
 
+/* line 330, ../sass/partials/_shared.scss */
+.uffici-cookies {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #343534;
+}
+/* line 336, ../sass/partials/_shared.scss */
+.uffici-cookies a.btn {
+  background-color: #ff9900;
+  color: #343534;
+  font-size: 14px;
+}
+
 /* line 1, ../sass/partials/_header.scss */
 header {
   background-color: #ffffff;
