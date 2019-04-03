@@ -3,6 +3,14 @@
 		font-size: 1.5rem;
 	}
 
+	table {
+		font-family: 'Roboto', sans-serif;
+
+		th {
+			color: $orange;
+		}
+	}
+
 	button {
 		background: none;
 		border: none; 

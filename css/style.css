@@ -1953,6 +1953,14 @@ header .mynavbar .navbar-brand img {
   font-size: 1.5rem;
 }
 /* line 6, ../sass/partials/_plain.scss */
+.plain table {
+  font-family: 'Roboto', sans-serif;
+}
+/* line 9, ../sass/partials/_plain.scss */
+.plain table th {
+  color: #ff9900;
+}
+/* line 14, ../sass/partials/_plain.scss */
 .plain button {
   background: none;
   border: none;
@@ -1962,17 +1970,17 @@ header .mynavbar .navbar-brand img {
   border-top: 1px solid #fdab22;
   border-bottom: 1px solid #fdab22;
 }
-/* line 15, ../sass/partials/_plain.scss */
+/* line 23, ../sass/partials/_plain.scss */
 .plain button:focus {
   outline: none;
 }
-/* line 19, ../sass/partials/_plain.scss */
+/* line 27, ../sass/partials/_plain.scss */
 .plain button span {
   color: #000000;
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 25, ../sass/partials/_plain.scss */
+/* line 33, ../sass/partials/_plain.scss */
 .plain button i {
   color: #222222;
   font-size: 0.8125rem;
@@ -1983,28 +1991,28 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 34, ../sass/partials/_plain.scss */
+/* line 42, ../sass/partials/_plain.scss */
 .plain a {
   color: #ff9900;
 }
-/* line 38, ../sass/partials/_plain.scss */
+/* line 46, ../sass/partials/_plain.scss */
 .plain .py-5.text-left ul {
   list-style: none;
   padding: 0;
 }
-/* line 43, ../sass/partials/_plain.scss */
+/* line 51, ../sass/partials/_plain.scss */
 .plain p, .plain li {
   color: #000000;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 2.8;
 }
-/* line 50, ../sass/partials/_plain.scss */
+/* line 58, ../sass/partials/_plain.scss */
 .plain .plain-text p {
   line-height: 2;
 }
 
-/* line 55, ../sass/partials/_plain.scss */
+/* line 63, ../sass/partials/_plain.scss */
 .rotate180 {
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
