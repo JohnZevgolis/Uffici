@@ -1588,6 +1588,7 @@ header .mynavbar .navbar-brand img {
 
 /* line 264, ../sass/partials/_product.scss */
 .product {
+  position: relative;
   overflow: hidden;
 }
 /* line 268, ../sass/partials/_product.scss */
@@ -1615,7 +1616,7 @@ header .mynavbar .navbar-brand img {
   transition: all 0.5s;
 }
 /* line 286, ../sass/partials/_product.scss */
-.product:hover img, .product:hover .product-bg {
+.product:hover img:not(.new), .product:hover .product-bg {
   -moz-transform: scale(1.5);
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
@@ -1636,9 +1637,44 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+/* line 303, ../sass/partials/_product.scss */
+.product .new {
+  left: 1rem;
+  bottom: 1rem;
+  height: 80px;
+  min-height: 80px;
+  max-height: 80px;
+  width: 80px;
+  min-width: 80px;
+  max-width: 80px;
+}
+@media (max-width: 767.98px) {
+  /* line 303, ../sass/partials/_product.scss */
+  .product .new {
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 303, ../sass/partials/_product.scss */
+  .product .new {
+    height: 80px;
+    min-height: 80px;
+    max-height: 80px;
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+    bottom: .5rem;
+    left: .5rem;
+  }
+}
 
 @media only screen and (max-width: 767px) {
-  /* line 305, ../sass/partials/_product.scss */
+  /* line 336, ../sass/partials/_product.scss */
   .content.product-content.more-about-us h2 {
     font-size: 2rem;
   }
