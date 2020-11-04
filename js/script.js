@@ -14,6 +14,7 @@ $(function() {
 	reveal();
 	marginTop();
 	productPageButton();
+	newsPopup();
 
 })
 
@@ -33,6 +34,17 @@ $(window).on("load",function() {
 
 var width;
 var headerHeight;
+
+function newsPopup() {
+    var newsPopup = $('[data-remodal-id=news-popup]').remodal();
+    var show = sessionStorage.getItem('show');
+    if (show == null) {
+        if ($('[data-remodal-id=news-popup]').length) {
+            newsPopup.open();
+            sessionStorage.setItem('show', 1); 
+        }   
+    }
+}
 
 function scrollDown() {
 	if($(".scroll-down").length) {

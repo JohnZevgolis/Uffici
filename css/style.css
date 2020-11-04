@@ -444,14 +444,13 @@ header .mynavbar {
 header .mynavbar .nav-link {
   font-size: 14px;
   color: #1f1812;
-  text-transform: uppercase;
   position: relative;
 }
-/* line 14, ../sass/partials/_header.scss */
+/* line 13, ../sass/partials/_header.scss */
 header .mynavbar .nav-link img[width="20"] {
   margin-top: -3px;
 }
-/* line 20, ../sass/partials/_header.scss */
+/* line 19, ../sass/partials/_header.scss */
 header .mynavbar .navbar-toggler .middle-bar {
   margin-top: 5px;
   -moz-transition-delay: 0.2s;
@@ -459,7 +458,7 @@ header .mynavbar .navbar-toggler .middle-bar {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
-/* line 25, ../sass/partials/_header.scss */
+/* line 24, ../sass/partials/_header.scss */
 header .mynavbar .navbar-toggler .bottom-bar {
   margin-top: 5px;
   -moz-transition-delay: 0.4s;
@@ -467,12 +466,12 @@ header .mynavbar .navbar-toggler .bottom-bar {
   -webkit-transition-delay: 0.4s;
   transition-delay: 0.4s;
 }
-/* line 30, ../sass/partials/_header.scss */
+/* line 29, ../sass/partials/_header.scss */
 header .mynavbar .navbar-toggler:focus {
   outline: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 35, ../sass/partials/_header.scss */
+  /* line 34, ../sass/partials/_header.scss */
   header .mynavbar .navbar-brand {
     position: static;
     -moz-transform: none;
@@ -481,18 +480,18 @@ header .mynavbar .navbar-toggler:focus {
     transform: none;
   }
 }
-/* line 44, ../sass/partials/_header.scss */
+/* line 43, ../sass/partials/_header.scss */
 header .mynavbar .navbar-brand img {
   max-height: 70px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 44, ../sass/partials/_header.scss */
+  /* line 43, ../sass/partials/_header.scss */
   header .mynavbar .navbar-brand img {
     max-height: 60px;
   }
 }
 
-/* line 56, ../sass/partials/_header.scss */
+/* line 55, ../sass/partials/_header.scss */
 .fadeOutRight {
   opacity: 0;
   -moz-transform: translateX(10px);
@@ -531,15 +530,14 @@ header .mynavbar .navbar-brand img {
 }
 /* line 26, ../sass/partials/_footer.scss */
 .footer-height footer h4 {
-  text-transform: uppercase;
   font-size: 18px;
   font-family: 'Comfortaa', cursive;
 }
-/* line 32, ../sass/partials/_footer.scss */
+/* line 31, ../sass/partials/_footer.scss */
 .footer-height footer p {
   font-size: 14px;
 }
-/* line 36, ../sass/partials/_footer.scss */
+/* line 35, ../sass/partials/_footer.scss */
 .footer-height footer a {
   color: #ffffff;
   -moz-transition: all 0.3s;
@@ -547,65 +545,65 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 39, ../sass/partials/_footer.scss */
+/* line 38, ../sass/partials/_footer.scss */
 .footer-height footer a:hover {
   color: #ff9900;
 }
-/* line 44, ../sass/partials/_footer.scss */
+/* line 43, ../sass/partials/_footer.scss */
 .footer-height footer .social a i {
   font-size: 20px;
 }
-/* line 48, ../sass/partials/_footer.scss */
+/* line 47, ../sass/partials/_footer.scss */
 .footer-height footer .navbar-nav .nav-link {
   color: #cccccc;
   font-size: 14px;
 }
-/* line 51, ../sass/partials/_footer.scss */
+/* line 50, ../sass/partials/_footer.scss */
 .footer-height footer .navbar-nav .nav-link:hover {
   color: #ff9900;
 }
-/* line 56, ../sass/partials/_footer.scss */
+/* line 55, ../sass/partials/_footer.scss */
 .footer-height footer span.phone {
   color: #ff9900;
   font-size: 24px;
   font-weight: bold;
 }
-/* line 62, ../sass/partials/_footer.scss */
+/* line 61, ../sass/partials/_footer.scss */
 .footer-height footer .umobit-logo {
   position: relative;
   bottom: 4px;
   width: 26px;
 }
-/* line 68, ../sass/partials/_footer.scss */
+/* line 67, ../sass/partials/_footer.scss */
 .footer-height footer .umobit-logo img {
   -moz-transition: all 0.8s;
   -o-transition: all 0.8s;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
-/* line 72, ../sass/partials/_footer.scss */
+/* line 71, ../sass/partials/_footer.scss */
 .footer-height footer .umobit-logo img:last-child {
   opacity: 0;
 }
-/* line 77, ../sass/partials/_footer.scss */
+/* line 76, ../sass/partials/_footer.scss */
 .footer-height footer .umobit-logo:hover img:first-child {
   opacity: 0;
 }
-/* line 81, ../sass/partials/_footer.scss */
+/* line 80, ../sass/partials/_footer.scss */
 .footer-height footer .umobit-logo:hover img:last-child {
   opacity: 1;
 }
-/* line 87, ../sass/partials/_footer.scss */
+/* line 86, ../sass/partials/_footer.scss */
 .footer-height footer .footer-bottom p,
 .footer-height footer .footer-bottom a,
 .footer-height footer .footer-bottom li {
   font-size: 12px;
 }
-/* line 93, ../sass/partials/_footer.scss */
+/* line 92, ../sass/partials/_footer.scss */
 .footer-height footer .footer-bottom li {
   border-right: 1px solid #ffffff;
 }
-/* line 95, ../sass/partials/_footer.scss */
+/* line 94, ../sass/partials/_footer.scss */
 .footer-height footer .footer-bottom li:last-child {
   border-right: none;
 }
@@ -1048,10 +1046,9 @@ header .mynavbar .navbar-brand img {
 /* line 23, ../sass/partials/_main_menu.scss */
 .main-menu a {
   color: #000000;
-  text-transform: uppercase;
   font-size: 22px;
 }
-/* line 29, ../sass/partials/_main_menu.scss */
+/* line 28, ../sass/partials/_main_menu.scss */
 .main-menu .close-btn {
   background: transparent;
   border: none;
@@ -1059,11 +1056,11 @@ header .mynavbar .navbar-brand img {
   height: 30px;
   cursor: pointer;
 }
-/* line 36, ../sass/partials/_main_menu.scss */
+/* line 35, ../sass/partials/_main_menu.scss */
 .main-menu .close-btn:focus {
   outline: none;
 }
-/* line 40, ../sass/partials/_main_menu.scss */
+/* line 39, ../sass/partials/_main_menu.scss */
 .main-menu .close-btn .icon-bar {
   position: absolute;
   width: 30px;
@@ -1071,19 +1068,19 @@ header .mynavbar .navbar-brand img {
   height: 1px;
 }
 @media only screen and (max-width: 576px) {
-  /* line 40, ../sass/partials/_main_menu.scss */
+  /* line 39, ../sass/partials/_main_menu.scss */
   .main-menu .close-btn .icon-bar {
     width: 28px;
   }
 }
-/* line 51, ../sass/partials/_main_menu.scss */
+/* line 50, ../sass/partials/_main_menu.scss */
 .main-menu .close-btn .top-bar {
   -moz-transform: rotate(45deg) translateX(-100%);
   -ms-transform: rotate(45deg) translateX(-100%);
   -webkit-transform: rotate(45deg) translateX(-100%);
   transform: rotate(45deg) translateX(-100%);
 }
-/* line 55, ../sass/partials/_main_menu.scss */
+/* line 54, ../sass/partials/_main_menu.scss */
 .main-menu .close-btn .bottom-bar {
   -moz-transform: rotate(-45deg) translateX(100%);
   -ms-transform: rotate(-45deg) translateX(100%);
@@ -1091,23 +1088,23 @@ header .mynavbar .navbar-brand img {
   transform: rotate(-45deg) translateX(100%);
   transition-delay: .1s;
 }
-/* line 63, ../sass/partials/_main_menu.scss */
+/* line 62, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .nav-item {
   line-height: 3.5;
 }
 @media only screen and (max-width: 767px) {
-  /* line 63, ../sass/partials/_main_menu.scss */
+  /* line 62, ../sass/partials/_main_menu.scss */
   .main-menu .navbar-nav .nav-item {
     line-height: 2.5;
   }
 }
 @media only screen and (max-width: 576px) {
-  /* line 63, ../sass/partials/_main_menu.scss */
+  /* line 62, ../sass/partials/_main_menu.scss */
   .main-menu .navbar-nav .nav-item {
     line-height: 2.2;
   }
 }
-/* line 75, ../sass/partials/_main_menu.scss */
+/* line 74, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .nav-item .nav-link {
   position: relative;
   left: 10px;
@@ -1144,24 +1141,24 @@ header .mynavbar .navbar-brand img {
   	width: 90%;
   }*/
 }
-/* line 107, ../sass/partials/_main_menu.scss */
+/* line 106, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .nav-item .nav-link span {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 116, ../sass/partials/_main_menu.scss */
+/* line 115, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .nav-item:hover > .nav-link {
   background-size: 100% 100%;
 }
-/* line 120, ../sass/partials/_main_menu.scss */
+/* line 119, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .nav-item:hover > .nav-link > span {
   color: #ffffff;
   position: relative;
   z-index: 1;
 }
-/* line 127, ../sass/partials/_main_menu.scss */
+/* line 126, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .secondary-menu {
   position: absolute;
   left: 100%;
@@ -1176,47 +1173,47 @@ header .mynavbar .navbar-brand img {
   overflow-x: hidden;
   width: 0;
 }
-/* line 138, ../sass/partials/_main_menu.scss */
+/* line 137, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .secondary-menu .navbar-nav {
   padding-top: 2.2rem;
 }
-/* line 142, ../sass/partials/_main_menu.scss */
+/* line 141, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .secondary-menu .nav-item {
   line-height: 2.5;
 }
-/* line 146, ../sass/partials/_main_menu.scss */
+/* line 145, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .secondary-menu .nav-link {
   font-size: 16px;
 }
-/* line 150, ../sass/partials/_main_menu.scss */
+/* line 149, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav .secondary-menu .nav-link:hover:before {
   width: 95%;
 }
-/* line 161, ../sass/partials/_main_menu.scss */
+/* line 160, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav > .nav-item:hover .secondary-menu {
   top: 0;
 }
-/* line 167, ../sass/partials/_main_menu.scss */
+/* line 166, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav.main-menu-mobile {
   border-top: 1px solid #000000;
 }
-/* line 173, ../sass/partials/_main_menu.scss */
+/* line 172, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav.main-menu-mobile .nav-item .nav-link {
   font-size: 18px;
 }
-/* line 177, ../sass/partials/_main_menu.scss */
+/* line 176, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav.main-menu-mobile .nav-item .nav-link:hover {
   background: #ffffff;
 }
-/* line 181, ../sass/partials/_main_menu.scss */
+/* line 180, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav.main-menu-mobile .nav-item .nav-link:hover span {
   color: #000000;
 }
-/* line 185, ../sass/partials/_main_menu.scss */
+/* line 184, ../sass/partials/_main_menu.scss */
 .main-menu .navbar-nav.main-menu-mobile .nav-item .nav-link:hover:before {
   display: none;
 }
-/* line 195, ../sass/partials/_main_menu.scss */
+/* line 194, ../sass/partials/_main_menu.scss */
 .main-menu .social-media .nav-item {
   -moz-transition: left 0.3s, opacity 0.3s;
   -o-transition: left 0.3s, opacity 0.3s;
@@ -1225,7 +1222,7 @@ header .mynavbar .navbar-brand img {
   left: 10px;
   opacity: 0;
 }
-/* line 200, ../sass/partials/_main_menu.scss */
+/* line 199, ../sass/partials/_main_menu.scss */
 .main-menu .social-media a {
   border: 1px solid #000000;
   border-radius: 100%;
@@ -1238,29 +1235,29 @@ header .mynavbar .navbar-brand img {
   transition: all 0.3s;
 }
 @media only screen and (max-width: 576px) {
-  /* line 200, ../sass/partials/_main_menu.scss */
+  /* line 199, ../sass/partials/_main_menu.scss */
   .main-menu .social-media a {
     height: 35px;
     width: 35px;
   }
 }
-/* line 213, ../sass/partials/_main_menu.scss */
+/* line 212, ../sass/partials/_main_menu.scss */
 .main-menu .social-media a:hover {
   background-color: #000000;
   color: #ffffff;
 }
-/* line 218, ../sass/partials/_main_menu.scss */
+/* line 217, ../sass/partials/_main_menu.scss */
 .main-menu .social-media a i {
   font-size: 25px;
 }
 @media only screen and (max-width: 576px) {
-  /* line 218, ../sass/partials/_main_menu.scss */
+  /* line 217, ../sass/partials/_main_menu.scss */
   .main-menu .social-media a i {
     font-size: 22px;
   }
 }
 
-/* line 230, ../sass/partials/_main_menu.scss */
+/* line 229, ../sass/partials/_main_menu.scss */
 .move-top-bar {
   -moz-transform: rotate(45deg) translateX(0) !important;
   -ms-transform: rotate(45deg) translateX(0) !important;
@@ -1268,7 +1265,7 @@ header .mynavbar .navbar-brand img {
   transform: rotate(45deg) translateX(0) !important;
 }
 
-/* line 234, ../sass/partials/_main_menu.scss */
+/* line 233, ../sass/partials/_main_menu.scss */
 .move-bottom-bar {
   -moz-transform: rotate(-45deg) translateX(0) !important;
   -ms-transform: rotate(-45deg) translateX(0) !important;
@@ -1276,12 +1273,12 @@ header .mynavbar .navbar-brand img {
   transform: rotate(-45deg) translateX(0) !important;
 }
 
-/* line 238, ../sass/partials/_main_menu.scss */
+/* line 237, ../sass/partials/_main_menu.scss */
 .main-menu-padding {
   padding: 0 0 0 calc(1.75rem - 6px + 20px);
 }
 @media only screen and (max-width: 767px) {
-  /* line 238, ../sass/partials/_main_menu.scss */
+  /* line 237, ../sass/partials/_main_menu.scss */
   .main-menu-padding {
     padding: 0 15px;
   }
@@ -1335,23 +1332,22 @@ header .mynavbar .navbar-brand img {
 /* line 46, ../sass/partials/_product.scss */
 .content.product-content button.slideToggle span {
   font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
 }
-/* line 51, ../sass/partials/_product.scss */
+/* line 50, ../sass/partials/_product.scss */
 .content.product-content button.slideToggle div.d-inline-block {
   width: 11px;
   height: 11px;
   position: relative;
 }
-/* line 60, ../sass/partials/_product.scss */
+/* line 59, ../sass/partials/_product.scss */
 .content.product-content button.slideToggle i:last-child {
   display: none;
 }
-/* line 65, ../sass/partials/_product.scss */
+/* line 64, ../sass/partials/_product.scss */
 .content.product-content button.slideToggle:focus {
   outline: none;
 }
-/* line 72, ../sass/partials/_product.scss */
+/* line 71, ../sass/partials/_product.scss */
 .content.product-content .prev-product i, .content.product-content .prev-product hr {
   position: absolute;
   border: none;
@@ -1369,28 +1365,28 @@ header .mynavbar .navbar-brand img {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
-/* line 81, ../sass/partials/_product.scss */
+/* line 80, ../sass/partials/_product.scss */
 .content.product-content .prev-product hr {
   background-color: #343534;
   width: 20px;
   right: 0;
 }
-/* line 87, ../sass/partials/_product.scss */
+/* line 86, ../sass/partials/_product.scss */
 .content.product-content .prev-product:hover hr {
   width: 30px;
 }
-/* line 91, ../sass/partials/_product.scss */
+/* line 90, ../sass/partials/_product.scss */
 .content.product-content .prev-product:hover i {
   -moz-transform: translateX(-10px) translateY(-50%);
   -ms-transform: translateX(-10px) translateY(-50%);
   -webkit-transform: translateX(-10px) translateY(-50%);
   transform: translateX(-10px) translateY(-50%);
 }
-/* line 95, ../sass/partials/_product.scss */
+/* line 94, ../sass/partials/_product.scss */
 .content.product-content .prev-product .relative {
   width: 24px;
 }
-/* line 100, ../sass/partials/_product.scss */
+/* line 99, ../sass/partials/_product.scss */
 .content.product-content .borders {
   position: absolute;
   width: 140%;
@@ -1402,7 +1398,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 108, ../sass/partials/_product.scss */
+/* line 107, ../sass/partials/_product.scss */
 .content.product-content .borders > div {
   background-color: #ebebeb;
   -moz-transition: all 0.8s;
@@ -1410,7 +1406,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
-/* line 113, ../sass/partials/_product.scss */
+/* line 112, ../sass/partials/_product.scss */
 .content.product-content .borders .top-border {
   height: 1px;
   position: absolute;
@@ -1422,7 +1418,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
 }
-/* line 122, ../sass/partials/_product.scss */
+/* line 121, ../sass/partials/_product.scss */
 .content.product-content .borders .bottom-border {
   height: 1px;
   position: absolute;
@@ -1434,7 +1430,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
 }
-/* line 131, ../sass/partials/_product.scss */
+/* line 130, ../sass/partials/_product.scss */
 .content.product-content .borders .left-border {
   height: 100%;
   position: absolute;
@@ -1446,7 +1442,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
 }
-/* line 140, ../sass/partials/_product.scss */
+/* line 139, ../sass/partials/_product.scss */
 .content.product-content .borders .right-border {
   height: 100%;
   position: absolute;
@@ -1458,20 +1454,20 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
 }
-/* line 150, ../sass/partials/_product.scss */
+/* line 149, ../sass/partials/_product.scss */
 .content.product-content .borders.etaireia-borders {
   left: -150px;
   width: 120%;
 }
-/* line 155, ../sass/partials/_product.scss */
+/* line 154, ../sass/partials/_product.scss */
 .content.product-content .borders.etaireia-borders.left-borders {
   left: 0;
 }
-/* line 159, ../sass/partials/_product.scss */
+/* line 158, ../sass/partials/_product.scss */
 .content.product-content .borders.etaireia-borders.activities-borders {
   width: 95%;
 }
-/* line 163, ../sass/partials/_product.scss */
+/* line 162, ../sass/partials/_product.scss */
 .content.product-content .piato:hover .borders .top-border,
 .content.product-content .piato:hover .borders .bottom-border {
   -moz-transform: scaleX(1);
@@ -1479,7 +1475,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-/* line 168, ../sass/partials/_product.scss */
+/* line 167, ../sass/partials/_product.scss */
 .content.product-content .piato:hover .borders .left-border,
 .content.product-content .piato:hover .borders .right-border {
   -moz-transform: scaleY(1);
@@ -1487,7 +1483,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
-/* line 173, ../sass/partials/_product.scss */
+/* line 172, ../sass/partials/_product.scss */
 .content.product-content .piato .overflow-hidden img:not(.position-absolute) {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -1495,27 +1491,27 @@ header .mynavbar .navbar-brand img {
   transition: all 0.5s;
 }
 @media (max-width: 992px) {
-  /* line 173, ../sass/partials/_product.scss */
+  /* line 172, ../sass/partials/_product.scss */
   .content.product-content .piato .overflow-hidden img:not(.position-absolute) {
     width: 100%;
   }
 }
-/* line 183, ../sass/partials/_product.scss */
+/* line 182, ../sass/partials/_product.scss */
 .content.product-content .piato.special .overflow-hidden {
   border: 15px solid #fb8520;
   position: relative;
 }
-/* line 187, ../sass/partials/_product.scss */
+/* line 186, ../sass/partials/_product.scss */
 .content.product-content .piato.special .overflow-hidden .position-absolute {
   top: 0;
   left: 0;
   z-index: 10;
 }
-/* line 194, ../sass/partials/_product.scss */
+/* line 193, ../sass/partials/_product.scss */
 .content.product-content .piato.special h2 {
   color: #fb8520;
 }
-/* line 199, ../sass/partials/_product.scss */
+/* line 198, ../sass/partials/_product.scss */
 .content.product-content .piato:hover .overflow-hidden img:not(.position-absolute),
 .content.product-content .piato:hover .piata-imeras-bg,
 .content.product-content .piato:hover .product-bg {
@@ -1524,15 +1520,14 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
-/* line 205, ../sass/partials/_product.scss */
+/* line 204, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn {
   color: #000000;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
   font-size: 14px;
 }
-/* line 212, ../sass/partials/_product.scss */
+/* line 210, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn:after {
   content: '';
   position: absolute;
@@ -1547,28 +1542,28 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-/* line 224, ../sass/partials/_product.scss */
+/* line 222, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn:hover:after {
   width: 0;
 }
-/* line 230, ../sass/partials/_product.scss */
+/* line 228, ../sass/partials/_product.scss */
 .content.product-content.etaireia-new p {
   color: #222222;
   line-height: 2;
 }
-/* line 235, ../sass/partials/_product.scss */
+/* line 233, ../sass/partials/_product.scss */
 .content.product-content.etaireia-new .borders {
   top: 40%;
   width: 120%;
   height: 120%;
   left: -80px;
 }
-/* line 243, ../sass/partials/_product.scss */
+/* line 241, ../sass/partials/_product.scss */
 .content.product-content.fade-effect .col-md-10:not(.col-lg-12) p {
   color: #222222;
   line-height: 2;
 }
-/* line 248, ../sass/partials/_product.scss */
+/* line 246, ../sass/partials/_product.scss */
 .content.product-content .piata-imeras-bg {
   padding-bottom: 78%;
   background-size: cover;
@@ -1579,7 +1574,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 256, ../sass/partials/_product.scss */
+/* line 254, ../sass/partials/_product.scss */
 .content.product-content .product-bg {
   padding-bottom: 100%;
   background-size: cover;
@@ -1591,11 +1586,11 @@ header .mynavbar .navbar-brand img {
   transition: all 0.5s;
 }
 
-/* line 266, ../sass/partials/_product.scss */
+/* line 264, ../sass/partials/_product.scss */
 .product {
   overflow: hidden;
 }
-/* line 270, ../sass/partials/_product.scss */
+/* line 268, ../sass/partials/_product.scss */
 .product .layer {
   position: absolute;
   top: 0;
@@ -1608,30 +1603,29 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 279, ../sass/partials/_product.scss */
+/* line 277, ../sass/partials/_product.scss */
 .product .layer h2 {
   font-size: 18px;
-  text-transform: uppercase;
 }
-/* line 285, ../sass/partials/_product.scss */
+/* line 282, ../sass/partials/_product.scss */
 .product img {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 289, ../sass/partials/_product.scss */
+/* line 286, ../sass/partials/_product.scss */
 .product:hover img, .product:hover .product-bg {
   -moz-transform: scale(1.5);
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
-/* line 294, ../sass/partials/_product.scss */
+/* line 291, ../sass/partials/_product.scss */
 .product:hover .layer {
   height: 100%;
 }
-/* line 298, ../sass/partials/_product.scss */
+/* line 295, ../sass/partials/_product.scss */
 .product .product-bg {
   padding-bottom: 100%;
   background-size: cover;
@@ -1644,7 +1638,7 @@ header .mynavbar .navbar-brand img {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 308, ../sass/partials/_product.scss */
+  /* line 305, ../sass/partials/_product.scss */
   .content.product-content.more-about-us h2 {
     font-size: 2rem;
   }
@@ -1806,11 +1800,10 @@ header .mynavbar .navbar-brand img {
   color: #000000;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
   font-size: 16px;
   background: none;
 }
-/* line 69, ../sass/partials/_contact.scss */
+/* line 68, ../sass/partials/_contact.scss */
 .contact-form form button:after {
   content: '';
   position: absolute;
@@ -1825,17 +1818,17 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-/* line 81, ../sass/partials/_contact.scss */
+/* line 80, ../sass/partials/_contact.scss */
 .contact-form form button:hover:after {
   width: 0;
 }
-/* line 85, ../sass/partials/_contact.scss */
+/* line 84, ../sass/partials/_contact.scss */
 .contact-form form button:focus {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 90, ../sass/partials/_contact.scss */
+/* line 89, ../sass/partials/_contact.scss */
 .contact-form form .g-recaptcha.error {
   outline: 4px solid red;
 }
@@ -1948,6 +1941,501 @@ header .mynavbar .navbar-brand img {
   font-weight: 400;
 }
 
+/*
+ *  Remodal - v1.1.1
+ *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+ *  http://vodkabears.github.io/remodal/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
+/* ==========================================================================
+   Remodal's necessary styles
+   ========================================================================== */
+/* Hide scroll bar */
+/* line 16, ../sass/partials/_remodal.scss */
+html.remodal-is-locked {
+  overflow: hidden;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+/* Anti FOUC */
+/* line 25, ../sass/partials/_remodal.scss */
+.remodal,
+[data-remodal-id] {
+  display: none;
+}
+
+/* Necessary styles of the overlay */
+/* line 32, ../sass/partials/_remodal.scss */
+.remodal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: -5000px;
+  right: -5000px;
+  bottom: -5000px;
+  left: -5000px;
+  display: none;
+}
+
+/* Necessary styles of the wrapper */
+/* line 45, ../sass/partials/_remodal.scss */
+.remodal-wrapper {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  overflow: auto;
+  text-align: center;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 61, ../sass/partials/_remodal.scss */
+.remodal-wrapper:after {
+  display: inline-block;
+  height: 100%;
+  margin-left: -0.05em;
+  content: "";
+}
+
+/* Fix iPad, iPhone glitches */
+/* line 72, ../sass/partials/_remodal.scss */
+.remodal-overlay,
+.remodal-wrapper {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Necessary styles of the modal dialog */
+/* line 80, ../sass/partials/_remodal.scss */
+.remodal {
+  position: relative;
+  outline: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* line 90, ../sass/partials/_remodal.scss */
+.remodal-is-initialized {
+  /* Disable Anti-FOUC */
+  display: inline-block;
+}
+
+/*
+ *  Remodal - v1.1.1
+ *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+ *  http://vodkabears.github.io/remodal/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
+/* ==========================================================================
+   Remodal's default mobile first theme
+   ========================================================================== */
+/* Default theme styles for the background */
+/* line 110, ../sass/partials/_remodal.scss */
+.remodal-bg.remodal-is-opening,
+.remodal-bg.remodal-is-opened {
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
+/* Default theme styles of the overlay */
+/* line 118, ../sass/partials/_remodal.scss */
+.remodal-overlay {
+  background: rgba(43, 46, 56, 0.9);
+}
+
+/* line 122, ../sass/partials/_remodal.scss */
+.remodal-overlay.remodal-is-opening,
+.remodal-overlay.remodal-is-closing {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/* line 130, ../sass/partials/_remodal.scss */
+.remodal-overlay.remodal-is-opening {
+  -webkit-animation-name: remodal-overlay-opening-keyframes;
+  animation-name: remodal-overlay-opening-keyframes;
+}
+
+/* line 135, ../sass/partials/_remodal.scss */
+.remodal-overlay.remodal-is-closing {
+  -webkit-animation-name: remodal-overlay-closing-keyframes;
+  animation-name: remodal-overlay-closing-keyframes;
+}
+
+/* Default theme styles of the wrapper */
+/* line 142, ../sass/partials/_remodal.scss */
+.remodal-wrapper {
+  padding: 10px 10px 0;
+}
+
+/* Default theme styles of the modal dialog */
+/* line 148, ../sass/partials/_remodal.scss */
+.remodal {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 35px;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  color: #2b2e38;
+  background: #fff;
+}
+
+/* line 161, ../sass/partials/_remodal.scss */
+.remodal.remodal-is-opening,
+.remodal.remodal-is-closing {
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/* line 169, ../sass/partials/_remodal.scss */
+.remodal.remodal-is-opening {
+  -webkit-animation-name: remodal-opening-keyframes;
+  animation-name: remodal-opening-keyframes;
+}
+
+/* line 174, ../sass/partials/_remodal.scss */
+.remodal.remodal-is-closing {
+  -webkit-animation-name: remodal-closing-keyframes;
+  animation-name: remodal-closing-keyframes;
+}
+
+/* Vertical align of the modal dialog */
+/* line 181, ../sass/partials/_remodal.scss */
+.remodal,
+.remodal-wrapper:after {
+  vertical-align: middle;
+}
+
+/* Close button */
+/* line 188, ../sass/partials/_remodal.scss */
+.remodal-close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  overflow: visible;
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  text-decoration: none;
+  color: #95979c;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+/* line 212, ../sass/partials/_remodal.scss */
+.remodal-close:hover,
+.remodal-close:focus {
+  color: #2b2e38;
+}
+
+/* line 217, ../sass/partials/_remodal.scss */
+.remodal-close:before {
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+  font-size: 25px;
+  line-height: 35px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 35px;
+  content: "\00d7";
+  text-align: center;
+}
+
+/* Dialog buttons */
+/* line 236, ../sass/partials/_remodal.scss */
+.remodal-confirm,
+.remodal-cancel {
+  font: inherit;
+  display: inline-block;
+  overflow: visible;
+  min-width: 110px;
+  margin: 0;
+  padding: 12px 0;
+  cursor: pointer;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+}
+
+/* line 258, ../sass/partials/_remodal.scss */
+.remodal-confirm {
+  color: #fff;
+  background: #81c784;
+}
+
+/* line 263, ../sass/partials/_remodal.scss */
+.remodal-confirm:hover,
+.remodal-confirm:focus {
+  background: #66bb6a;
+}
+
+/* line 268, ../sass/partials/_remodal.scss */
+.remodal-cancel {
+  color: #fff;
+  background: #e57373;
+}
+
+/* line 273, ../sass/partials/_remodal.scss */
+.remodal-cancel:hover,
+.remodal-cancel:focus {
+  background: #ef5350;
+}
+
+/* Remove inner padding and border in Firefox 4+ for the button tag. */
+/* line 280, ../sass/partials/_remodal.scss */
+.remodal-confirm::-moz-focus-inner,
+.remodal-cancel::-moz-focus-inner,
+.remodal-close::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* Keyframes
+   ========================================================================== */
+@-webkit-keyframes remodal-opening-keyframes {
+  from {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+}
+@keyframes remodal-opening-keyframes {
+  from {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+}
+@-webkit-keyframes remodal-closing-keyframes {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    opacity: 0;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+}
+@keyframes remodal-closing-keyframes {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    opacity: 0;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+}
+@-webkit-keyframes remodal-overlay-opening-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes remodal-overlay-opening-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes remodal-overlay-closing-keyframes {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes remodal-overlay-closing-keyframes {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* Media queries
+   ========================================================================== */
+@media only screen and (min-width: 641px) {
+  /* line 403, ../sass/partials/_remodal.scss */
+  .remodal {
+    max-width: 700px;
+  }
+}
+/* IE8
+   ========================================================================== */
+/* line 411, ../sass/partials/_remodal.scss */
+.lt-ie9 .remodal-overlay {
+  background: #2b2e38;
+}
+
+/* line 415, ../sass/partials/_remodal.scss */
+.lt-ie9 .remodal {
+  width: 700px;
+}
+
+/* line 1, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] {
+  background-color: #53302c;
+  max-width: 822px;
+  color: #ffffff;
+  padding: 0;
+}
+/* line 7, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] .wrapper {
+  padding: 20px 35px 4.5625rem;
+}
+@media (max-width: 575.98px) {
+  /* line 7, ../sass/partials/_news-popup.scss */
+  [data-remodal-id="news-popup"] .wrapper {
+    padding: 20px 15px 4.5625rem;
+  }
+}
+/* line 15, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] h2, [data-remodal-id="news-popup"] h3 {
+  font-weight: bold;
+}
+/* line 19, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] hr {
+  background-color: #ff9900;
+  border: none;
+  height: 3px;
+  width: 50px;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+}
+/* line 28, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] .popup-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 100%;
+}
+/* line 35, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] .date, [data-remodal-id="news-popup"] p, [data-remodal-id="news-popup"] .btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+/* line 40, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] .date {
+  font-size: 1.125rem;
+}
+/* line 44, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] h3 {
+  font-weight: 1.875rem;
+}
+/* line 48, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] .btn {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+/* line 53, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] .btn:after {
+  content: '';
+  position: absolute;
+  background: #ff9900;
+  width: 55%;
+  height: 17px;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+  display: block;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+/* line 67, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] .btn:hover:after {
+  width: 0;
+}
+/* line 73, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] .remodal-close {
+  height: 53px;
+  min-height: 53px;
+  max-height: 53px;
+  width: 53px;
+  min-width: 53px;
+  max-width: 53px;
+  color: #ffffff;
+  background-color: #ff9900;
+  outline: none;
+  border: none;
+  margin-top: -24px;
+  margin-right: -24px;
+  margin-left: auto;
+  position: static;
+  font-size: 2rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+@media (max-height: 100vh) {
+  /* line 73, ../sass/partials/_news-popup.scss */
+  [data-remodal-id="news-popup"] .remodal-close {
+    margin-top: 0;
+    margin-right: 0;
+  }
+}
+/* line 98, ../sass/partials/_news-popup.scss */
+[data-remodal-id="news-popup"] .remodal-close:before {
+  display: none;
+}
+
 /* line 2, ../sass/partials/_plain.scss */
 .plain h3 {
   font-size: 1.5rem;
@@ -1977,10 +2465,9 @@ header .mynavbar .navbar-brand img {
 /* line 27, ../sass/partials/_plain.scss */
 .plain button span {
   color: #000000;
-  text-transform: uppercase;
   font-weight: bold;
 }
-/* line 33, ../sass/partials/_plain.scss */
+/* line 32, ../sass/partials/_plain.scss */
 .plain button i {
   color: #222222;
   font-size: 0.8125rem;
@@ -1991,28 +2478,28 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 42, ../sass/partials/_plain.scss */
+/* line 41, ../sass/partials/_plain.scss */
 .plain a {
   color: #ff9900;
 }
-/* line 46, ../sass/partials/_plain.scss */
+/* line 45, ../sass/partials/_plain.scss */
 .plain .py-5.text-left ul {
   list-style: none;
   padding: 0;
 }
-/* line 51, ../sass/partials/_plain.scss */
+/* line 50, ../sass/partials/_plain.scss */
 .plain p, .plain li {
   color: #000000;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 2.8;
 }
-/* line 58, ../sass/partials/_plain.scss */
+/* line 57, ../sass/partials/_plain.scss */
 .plain .plain-text p {
   line-height: 2;
 }
 
-/* line 63, ../sass/partials/_plain.scss */
+/* line 62, ../sass/partials/_plain.scss */
 .rotate180 {
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
