@@ -18,19 +18,19 @@ $(function() {
 
 })
 
-$(window).resize(function() {
+$(window).on('resizeend', function(e) {
 	footer();
 	marginTop();
 	SetUpGridCols();
-})
+});
 
 $(window).scroll(function() {
 	reveal();
 })
 
-$(window).on("load",function() {
-	marginTop();
-})
+// $(window).on("load",function() {
+// 	marginTop();
+// })
 
 var width;
 var headerHeight;

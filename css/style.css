@@ -617,7 +617,6 @@ header .mynavbar .navbar-brand img {
 .myitem {
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
 }
 /* line 11, ../sass/partials/_homepage.scss */
@@ -1496,22 +1495,43 @@ header .mynavbar .navbar-brand img {
     width: 100%;
   }
 }
-/* line 182, ../sass/partials/_product.scss */
-.content.product-content .piato.special .overflow-hidden {
-  border: 15px solid #fb8520;
+/* line 181, ../sass/partials/_product.scss */
+.content.product-content .piato .overflow-hidden {
   position: relative;
 }
-/* line 186, ../sass/partials/_product.scss */
-.content.product-content .piato.special .overflow-hidden .position-absolute {
+/* line 184, ../sass/partials/_product.scss */
+.content.product-content .piato .overflow-hidden .new {
+  left: 1rem;
+  bottom: 1rem;
+  height: 80px;
+  min-height: 80px;
+  max-height: 80px;
+  width: 80px;
+  min-width: 80px;
+  max-width: 80px;
+}
+@media (max-width: 420px) {
+  /* line 184, ../sass/partials/_product.scss */
+  .content.product-content .piato .overflow-hidden .new {
+    bottom: .5rem;
+    left: .5rem;
+  }
+}
+/* line 204, ../sass/partials/_product.scss */
+.content.product-content .piato.special .overflow-hidden {
+  border: 15px solid #fb8520;
+}
+/* line 207, ../sass/partials/_product.scss */
+.content.product-content .piato.special .overflow-hidden .position-absolute:not(.new) {
   top: 0;
   left: 0;
   z-index: 10;
 }
-/* line 193, ../sass/partials/_product.scss */
+/* line 214, ../sass/partials/_product.scss */
 .content.product-content .piato.special h2 {
   color: #fb8520;
 }
-/* line 198, ../sass/partials/_product.scss */
+/* line 219, ../sass/partials/_product.scss */
 .content.product-content .piato:hover .overflow-hidden img:not(.position-absolute),
 .content.product-content .piato:hover .piata-imeras-bg,
 .content.product-content .piato:hover .product-bg {
@@ -1520,14 +1540,14 @@ header .mynavbar .navbar-brand img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
-/* line 204, ../sass/partials/_product.scss */
+/* line 225, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn {
   color: #000000;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
-/* line 210, ../sass/partials/_product.scss */
+/* line 231, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn:after {
   content: '';
   position: absolute;
@@ -1542,28 +1562,28 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-/* line 222, ../sass/partials/_product.scss */
+/* line 243, ../sass/partials/_product.scss */
 .content.product-content .etaireia-btn:hover:after {
   width: 0;
 }
-/* line 228, ../sass/partials/_product.scss */
+/* line 249, ../sass/partials/_product.scss */
 .content.product-content.etaireia-new p {
   color: #222222;
   line-height: 2;
 }
-/* line 233, ../sass/partials/_product.scss */
+/* line 254, ../sass/partials/_product.scss */
 .content.product-content.etaireia-new .borders {
   top: 40%;
   width: 120%;
   height: 120%;
   left: -80px;
 }
-/* line 241, ../sass/partials/_product.scss */
+/* line 262, ../sass/partials/_product.scss */
 .content.product-content.fade-effect .col-md-10:not(.col-lg-12) p {
   color: #222222;
   line-height: 2;
 }
-/* line 246, ../sass/partials/_product.scss */
+/* line 267, ../sass/partials/_product.scss */
 .content.product-content .piata-imeras-bg {
   padding-bottom: 78%;
   background-size: cover;
@@ -1574,7 +1594,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 254, ../sass/partials/_product.scss */
+/* line 275, ../sass/partials/_product.scss */
 .content.product-content .product-bg {
   padding-bottom: 100%;
   background-size: cover;
@@ -1586,12 +1606,12 @@ header .mynavbar .navbar-brand img {
   transition: all 0.5s;
 }
 
-/* line 264, ../sass/partials/_product.scss */
+/* line 285, ../sass/partials/_product.scss */
 .product {
   position: relative;
   overflow: hidden;
 }
-/* line 268, ../sass/partials/_product.scss */
+/* line 289, ../sass/partials/_product.scss */
 .product .layer {
   position: absolute;
   top: 0;
@@ -1604,29 +1624,29 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 277, ../sass/partials/_product.scss */
+/* line 298, ../sass/partials/_product.scss */
 .product .layer h2 {
   font-size: 18px;
 }
-/* line 282, ../sass/partials/_product.scss */
+/* line 303, ../sass/partials/_product.scss */
 .product img {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 286, ../sass/partials/_product.scss */
+/* line 307, ../sass/partials/_product.scss */
 .product:hover img:not(.new), .product:hover .product-bg {
   -moz-transform: scale(1.5);
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
-/* line 291, ../sass/partials/_product.scss */
+/* line 312, ../sass/partials/_product.scss */
 .product:hover .layer {
   height: 100%;
 }
-/* line 295, ../sass/partials/_product.scss */
+/* line 316, ../sass/partials/_product.scss */
 .product .product-bg {
   padding-bottom: 100%;
   background-size: cover;
@@ -1637,7 +1657,7 @@ header .mynavbar .navbar-brand img {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 303, ../sass/partials/_product.scss */
+/* line 324, ../sass/partials/_product.scss */
 .product .new {
   left: 1rem;
   bottom: 1rem;
@@ -1649,7 +1669,7 @@ header .mynavbar .navbar-brand img {
   max-width: 80px;
 }
 @media (max-width: 767.98px) {
-  /* line 303, ../sass/partials/_product.scss */
+  /* line 324, ../sass/partials/_product.scss */
   .product .new {
     height: 100px;
     min-height: 100px;
@@ -1660,7 +1680,7 @@ header .mynavbar .navbar-brand img {
   }
 }
 @media (max-width: 420px) {
-  /* line 303, ../sass/partials/_product.scss */
+  /* line 324, ../sass/partials/_product.scss */
   .product .new {
     height: 80px;
     min-height: 80px;
@@ -1674,7 +1694,7 @@ header .mynavbar .navbar-brand img {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 336, ../sass/partials/_product.scss */
+  /* line 357, ../sass/partials/_product.scss */
   .content.product-content.more-about-us h2 {
     font-size: 2rem;
   }

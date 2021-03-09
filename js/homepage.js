@@ -10,12 +10,11 @@ $(function() {
 	carousel();
 	backgroundParallax();
 	textFadeOut();
+});
 
-	$(window).resize(function() {
-		carousel();
-		backgroundParallax();
-	})
-})
+$(window).on('resizeend', function(e) {
+  	carousel();
+});
 
 function carousel() {
 
@@ -23,7 +22,7 @@ function carousel() {
 		if($(this).next(".dropdown-menu").hasClass("scale-dropdown")) {
 			$('#demo').carousel('pause');
 		}
-	})
+	});
 
 	$('body').click(function () {
 		if(!$(".myitem .dropdown-menu").hasClass("scale-dropdown")) {
@@ -51,7 +50,6 @@ function carousel() {
 		$("#demo").unbind("touchstart, touchend, mousemove, mousemove, mouseup, mousedown");
 
 	}
-
 }
 
 function backgroundParallax() {

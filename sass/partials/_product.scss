@@ -177,13 +177,34 @@
 		}
 	}
 
+	.piato {
+		.overflow-hidden {
+			position: relative;
+
+			.new {
+				left: 1rem;
+				bottom: 1rem;
+				height: 80px;
+				min-height: 80px;
+				max-height: 80px;
+				width: 80px;
+				min-width: 80px;
+				max-width: 80px;
+
+				@media (max-width: 420px) {
+					bottom: .5rem;
+					left: .5rem;
+				}
+			}
+		}
+	}
+
 	.piato.special {
 
 		.overflow-hidden {
 			border: 15px solid $specialPlate;
-			position: relative;
 
-			.position-absolute {
+			.position-absolute:not(.new) {
 				top: 0;
 				left: 0;
 				z-index: 10;
